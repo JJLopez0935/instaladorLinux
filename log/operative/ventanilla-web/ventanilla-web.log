@@ -1,0 +1,705 @@
+[INFO ] 2019-07-18 15:21:20.944 [ServerService Thread Pool -- 73] InitializeListener - *********************************
+[INFO ] 2019-07-18 15:21:20.948 [ServerService Thread Pool -- 73] InitializeListener - *     INICIANDO APLICACION      *
+[INFO ] 2019-07-18 15:21:20.948 [ServerService Thread Pool -- 73] InitializeListener - *********************************
+[ERROR] 2019-07-18 15:21:41.960 [Thread-111] VentanillaServiceImpl - Error de comunicacion: java.net.ConnectException: Connection refused (Connection refused)
+[ERROR] 2019-07-18 15:21:41.967 [Thread-111] InitializationThread - Error contextInitialized com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused (Connection refused)
+[INFO ] 2019-07-18 15:28:57.922 [ServerService Thread Pool -- 79] InitializeListener - *********************************
+[INFO ] 2019-07-18 15:28:58.082 [ServerService Thread Pool -- 79] InitializeListener - *     INICIANDO APLICACION      *
+[INFO ] 2019-07-18 15:28:58.082 [ServerService Thread Pool -- 79] InitializeListener - *********************************
+[ERROR] 2019-07-18 15:29:27.217 [Thread-108] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 15:29:27.225 [Thread-108] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 15:29:27.225 [Thread-108] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 15:29:37.517 [Thread-108] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 15:29:37.517 [Thread-108] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 15:29:37.517 [Thread-108] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 15:29:47.631 [Thread-108] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 15:29:47.631 [Thread-108] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 15:29:47.631 [Thread-108] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 15:29:57.719 [Thread-108] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 15:29:57.719 [Thread-108] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 15:29:57.719 [Thread-108] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 15:30:07.847 [Thread-108] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 15:30:07.847 [Thread-108] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 15:30:07.847 [Thread-108] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[INFO ] 2019-07-18 15:33:26.321 [ServerService Thread Pool -- 69] InitializeListener - *********************************
+[INFO ] 2019-07-18 15:33:26.388 [ServerService Thread Pool -- 69] InitializeListener - *     INICIANDO APLICACION      *
+[INFO ] 2019-07-18 15:33:26.388 [ServerService Thread Pool -- 69] InitializeListener - *********************************
+[ERROR] 2019-07-18 15:33:43.489 [Thread-114] VentanillaServiceImpl - Error de comunicacion: java.net.ConnectException: Connection refused (Connection refused)
+[ERROR] 2019-07-18 15:33:43.502 [Thread-114] InitializationThread - Error contextInitialized com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused (Connection refused)
+[INFO ] 2019-07-18 15:36:57.881 [ServerService Thread Pool -- 67] InitializeListener - *********************************
+[INFO ] 2019-07-18 15:36:57.924 [ServerService Thread Pool -- 67] InitializeListener - *     INICIANDO APLICACION      *
+[INFO ] 2019-07-18 15:36:57.924 [ServerService Thread Pool -- 67] InitializeListener - *********************************
+[ERROR] 2019-07-18 15:37:09.956 [Thread-107] VentanillaServiceImpl - Error de comunicacion: java.net.ConnectException: Connection refused (Connection refused)
+[ERROR] 2019-07-18 15:37:09.967 [Thread-107] InitializationThread - Error contextInitialized com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused (Connection refused)
+[INFO ] 2019-07-18 15:37:38.347 [ServerService Thread Pool -- 70] InitializeListener - *********************************
+[INFO ] 2019-07-18 15:37:38.371 [ServerService Thread Pool -- 70] InitializeListener - *     INICIANDO APLICACION      *
+[INFO ] 2019-07-18 15:37:38.371 [ServerService Thread Pool -- 70] InitializeListener - *********************************
+[ERROR] 2019-07-18 15:37:45.487 [Thread-108] VentanillaServiceImpl - Error de comunicacion: java.net.ConnectException: Connection refused (Connection refused)
+[ERROR] 2019-07-18 15:37:45.491 [Thread-108] InitializationThread - Error contextInitialized com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused (Connection refused)
+[INFO ] 2019-07-18 15:38:10.110 [ServerService Thread Pool -- 79] InitializeListener - *********************************
+[INFO ] 2019-07-18 15:38:10.116 [ServerService Thread Pool -- 79] InitializeListener - *     INICIANDO APLICACION      *
+[INFO ] 2019-07-18 15:38:10.116 [ServerService Thread Pool -- 79] InitializeListener - *********************************
+[ERROR] 2019-07-18 15:38:17.572 [Thread-108] VentanillaServiceImpl - Error de comunicacion: java.net.ConnectException: Connection refused (Connection refused)
+[ERROR] 2019-07-18 15:38:17.580 [Thread-108] InitializationThread - Error contextInitialized com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused (Connection refused)
+[INFO ] 2019-07-18 15:38:40.960 [ServerService Thread Pool -- 72] InitializeListener - *********************************
+[INFO ] 2019-07-18 15:38:40.969 [ServerService Thread Pool -- 72] InitializeListener - *     INICIANDO APLICACION      *
+[INFO ] 2019-07-18 15:38:40.969 [ServerService Thread Pool -- 72] InitializeListener - *********************************
+[ERROR] 2019-07-18 15:38:48.447 [Thread-104] VentanillaServiceImpl - Error de comunicacion: java.net.ConnectException: Connection refused (Connection refused)
+[ERROR] 2019-07-18 15:38:48.449 [Thread-104] InitializationThread - Error contextInitialized com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused (Connection refused)
+[INFO ] 2019-07-18 15:39:14.941 [ServerService Thread Pool -- 73] InitializeListener - *********************************
+[INFO ] 2019-07-18 15:39:14.944 [ServerService Thread Pool -- 73] InitializeListener - *     INICIANDO APLICACION      *
+[INFO ] 2019-07-18 15:39:14.944 [ServerService Thread Pool -- 73] InitializeListener - *********************************
+[ERROR] 2019-07-18 15:39:27.634 [Thread-103] VentanillaServiceImpl - Error de comunicacion: java.net.ConnectException: Connection refused (Connection refused)
+[ERROR] 2019-07-18 15:39:27.672 [Thread-103] InitializationThread - Error contextInitialized com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused (Connection refused)
+[INFO ] 2019-07-18 15:40:28.751 [ServerService Thread Pool -- 67] InitializeListener - *********************************
+[INFO ] 2019-07-18 15:40:28.807 [ServerService Thread Pool -- 67] InitializeListener - *     INICIANDO APLICACION      *
+[INFO ] 2019-07-18 15:40:28.808 [ServerService Thread Pool -- 67] InitializeListener - *********************************
+[ERROR] 2019-07-18 15:40:41.037 [Thread-107] VentanillaServiceImpl - Error de comunicacion: java.net.ConnectException: Connection refused (Connection refused)
+[ERROR] 2019-07-18 15:40:41.062 [Thread-107] InitializationThread - Error contextInitialized com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused (Connection refused)
+[INFO ] 2019-07-18 15:46:09.528 [ServerService Thread Pool -- 78] InitializeListener - *********************************
+[INFO ] 2019-07-18 15:46:09.563 [ServerService Thread Pool -- 78] InitializeListener - *     INICIANDO APLICACION      *
+[INFO ] 2019-07-18 15:46:09.563 [ServerService Thread Pool -- 78] InitializeListener - *********************************
+[ERROR] 2019-07-18 15:46:32.105 [Thread-105] VentanillaServiceImpl - Error de comunicacion: java.net.ConnectException: Connection refused (Connection refused)
+[ERROR] 2019-07-18 15:46:32.140 [Thread-105] InitializationThread - Error contextInitialized com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused (Connection refused)
+[INFO ] 2019-07-18 15:50:08.924 [ServerService Thread Pool -- 76] InitializeListener - *********************************
+[INFO ] 2019-07-18 15:50:08.938 [ServerService Thread Pool -- 76] InitializeListener - *     INICIANDO APLICACION      *
+[INFO ] 2019-07-18 15:50:08.938 [ServerService Thread Pool -- 76] InitializeListener - *********************************
+[INFO ] 2019-07-18 15:50:40.974 [Thread-106] InitializationThread - Estados de las ventanillas inicializadas correctamente
+[INFO ] 2019-07-18 15:59:29.469 [ServerService Thread Pool -- 72] InitializeListener - *********************************
+[INFO ] 2019-07-18 15:59:29.526 [ServerService Thread Pool -- 72] InitializeListener - *     INICIANDO APLICACION      *
+[INFO ] 2019-07-18 15:59:29.537 [ServerService Thread Pool -- 72] InitializeListener - *********************************
+[INFO ] 2019-07-18 15:59:56.476 [Thread-109] InitializationThread - Estados de las ventanillas inicializadas correctamente
+[INFO ] 2019-07-18 16:02:41.988 [ServerService Thread Pool -- 86] InitializeListener - *********************************
+[INFO ] 2019-07-18 16:02:42.010 [ServerService Thread Pool -- 86] InitializeListener - *     INICIANDO APLICACION      *
+[INFO ] 2019-07-18 16:02:42.011 [ServerService Thread Pool -- 86] InitializeListener - *********************************
+[ERROR] 2019-07-18 16:03:03.964 [Thread-108] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:03:03.965 [Thread-108] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:03:03.966 [Thread-108] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:03:14.111 [Thread-108] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:03:14.111 [Thread-108] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:03:14.111 [Thread-108] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:03:24.218 [Thread-108] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:03:24.218 [Thread-108] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:03:24.218 [Thread-108] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:03:34.306 [Thread-108] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:03:34.307 [Thread-108] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:03:34.307 [Thread-108] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:03:44.375 [Thread-108] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:03:44.375 [Thread-108] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:03:44.376 [Thread-108] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:03:54.457 [Thread-108] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:03:54.457 [Thread-108] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:03:54.457 [Thread-108] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[INFO ] 2019-07-18 16:04:45.021 [ServerService Thread Pool -- 71] InitializeListener - *********************************
+[INFO ] 2019-07-18 16:04:45.025 [ServerService Thread Pool -- 71] InitializeListener - *     INICIANDO APLICACION      *
+[INFO ] 2019-07-18 16:04:45.025 [ServerService Thread Pool -- 71] InitializeListener - *********************************
+[ERROR] 2019-07-18 16:04:56.205 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:04:56.207 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:04:56.208 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:05:06.457 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:05:06.458 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:05:06.458 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:05:16.552 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:05:16.552 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:05:16.552 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:05:26.626 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:05:26.626 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:05:26.626 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:05:36.694 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:05:36.694 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:05:36.694 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:05:46.801 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:05:46.801 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:05:46.801 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:05:56.878 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:05:56.878 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:05:56.878 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:06:06.941 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:06:06.941 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:06:06.941 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:06:17.009 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:06:17.009 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:06:17.009 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:06:27.072 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:06:27.073 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:06:27.073 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:06:37.140 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:06:37.140 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:06:37.140 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:06:47.196 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:06:47.196 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:06:47.196 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:06:57.249 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:06:57.249 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:06:57.249 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:07:07.323 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:07:07.323 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:07:07.323 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:07:17.380 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:07:17.380 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:07:17.380 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:07:27.463 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:07:27.463 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:07:27.463 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:07:37.517 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:07:37.517 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:07:37.517 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:07:47.586 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:07:47.586 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:07:47.586 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:07:57.648 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:07:57.649 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:07:57.649 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:08:07.709 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:08:07.709 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:08:07.709 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:08:17.762 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:08:17.762 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:08:17.762 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:08:27.824 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:08:27.824 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:08:27.824 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:08:37.881 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:08:37.881 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:08:37.881 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:08:47.944 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:08:47.944 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:08:47.944 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:08:57.998 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:08:57.998 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:08:57.998 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:09:08.060 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:09:08.060 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:09:08.060 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:09:18.127 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:09:18.127 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:09:18.127 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:09:28.179 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:09:28.179 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:09:28.179 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:09:38.232 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:09:38.232 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:09:38.232 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:09:48.285 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:09:48.285 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:09:48.285 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:09:58.341 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:09:58.341 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:09:58.341 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:10:08.401 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:10:08.402 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:10:08.402 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:10:18.455 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:10:18.455 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:10:18.455 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:10:28.509 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:10:28.509 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:10:28.509 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:10:38.594 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:10:38.594 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:10:38.594 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:10:48.646 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:10:48.646 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:10:48.646 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:10:58.699 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:10:58.699 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:10:58.699 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:11:08.757 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:11:08.757 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:11:08.757 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:11:18.809 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:11:18.809 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:11:18.809 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:11:28.868 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:11:28.868 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:11:28.868 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:11:38.921 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:11:38.921 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:11:38.921 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:11:48.972 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:11:48.972 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:11:48.972 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:11:59.040 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:11:59.040 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:11:59.040 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:12:09.091 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:12:09.091 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:12:09.092 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:12:19.144 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:12:19.144 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:12:19.144 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:12:29.206 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:12:29.206 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:12:29.206 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:12:39.256 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:12:39.256 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:12:39.256 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:12:49.307 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:12:49.307 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:12:49.307 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:12:59.361 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:12:59.361 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:12:59.361 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:13:09.413 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:13:09.414 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:13:09.414 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:13:19.475 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:13:19.475 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:13:19.476 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:13:29.527 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:13:29.527 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:13:29.527 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:13:39.580 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:13:39.580 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:13:39.580 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:13:49.642 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:13:49.643 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:13:49.643 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:13:59.693 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:13:59.693 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:13:59.693 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:14:09.745 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:14:09.745 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:14:09.745 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:14:19.807 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:14:19.807 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:14:19.807 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:14:29.858 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:14:29.858 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:14:29.858 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:14:39.908 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:14:39.908 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:14:39.908 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:14:49.970 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:14:49.970 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:14:49.970 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:15:00.022 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:15:00.022 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:15:00.022 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:15:10.075 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:15:10.075 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:15:10.075 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:15:20.127 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:15:20.127 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:15:20.127 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:15:30.178 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:15:30.178 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:15:30.178 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:15:40.250 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:15:40.250 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:15:40.250 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:15:50.300 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:15:50.300 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:15:50.300 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:16:00.351 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:16:00.352 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:16:00.352 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:16:10.408 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:16:10.408 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:16:10.408 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:16:20.460 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:16:20.460 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:16:20.460 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:16:30.510 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:16:30.510 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:16:30.510 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:16:40.569 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:16:40.570 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:16:40.570 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:16:50.621 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:16:50.621 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:16:50.621 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:17:00.664 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:17:00.664 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:17:00.664 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:17:10.723 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:17:10.723 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:17:10.723 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:17:20.774 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:17:20.774 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:17:20.774 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:17:30.823 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:17:30.823 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:17:30.823 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:17:40.883 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:17:40.883 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:17:40.883 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:17:50.931 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:17:50.931 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:17:50.931 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:18:00.981 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:18:00.981 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:18:00.981 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:18:11.031 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:18:11.031 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:18:11.031 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:18:21.082 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:18:21.082 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:18:21.082 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:18:31.142 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:18:31.142 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:18:31.142 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:18:41.196 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:18:41.196 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:18:41.196 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:18:51.264 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:18:51.264 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:18:51.264 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:19:01.325 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:19:01.325 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:19:01.326 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:19:11.374 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:19:11.375 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:19:11.375 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:19:21.425 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:19:21.426 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:19:21.426 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:19:31.485 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:19:31.485 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:19:31.486 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:19:41.534 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:19:41.534 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:19:41.534 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:19:51.592 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:19:51.592 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:19:51.592 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:20:01.649 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:20:01.649 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:20:01.649 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:20:11.698 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:20:11.698 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:20:11.698 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:20:21.758 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:20:21.758 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:20:21.759 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:20:31.807 [Thread-107] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:20:31.807 [Thread-107] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:20:31.808 [Thread-107] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[INFO ] 2019-07-18 16:22:04.312 [ServerService Thread Pool -- 81] InitializeListener - *********************************
+[INFO ] 2019-07-18 16:22:04.505 [ServerService Thread Pool -- 81] InitializeListener - *     INICIANDO APLICACION      *
+[INFO ] 2019-07-18 16:22:04.505 [ServerService Thread Pool -- 81] InitializeListener - *********************************
+[ERROR] 2019-07-18 16:22:22.847 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:22:22.848 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:22:22.849 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:22:32.986 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:22:32.986 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:22:32.987 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:22:43.070 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:22:43.070 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:22:43.070 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:22:53.168 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:22:53.168 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:22:53.168 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:23:03.228 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:23:03.228 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:23:03.228 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:23:13.300 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:23:13.300 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:23:13.300 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:23:23.353 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:23:23.353 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:23:23.353 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:23:33.412 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:23:33.412 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:23:33.412 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:23:43.469 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:23:43.469 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:23:43.469 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:23:53.522 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:23:53.522 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:23:53.522 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:24:03.575 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:24:03.575 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:24:03.575 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:24:13.647 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:24:13.647 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:24:13.647 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:24:23.698 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:24:23.698 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:24:23.698 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:24:33.756 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:24:33.756 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:24:33.756 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:24:43.818 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:24:43.819 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:24:43.819 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:24:53.891 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:24:53.891 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:24:53.891 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:25:03.950 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:25:03.950 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:25:03.950 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:25:14.006 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:25:14.006 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:25:14.007 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:25:24.054 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:25:24.054 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:25:24.054 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:25:34.104 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:25:34.104 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:25:34.104 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:25:44.158 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:25:44.158 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:25:44.158 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:25:54.237 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:25:54.237 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:25:54.237 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:26:04.287 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:26:04.287 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:26:04.287 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:26:14.335 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:26:14.336 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:26:14.336 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:26:24.392 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:26:24.392 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:26:24.392 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:26:34.441 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:26:34.441 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:26:34.441 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:26:44.491 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:26:44.491 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:26:44.491 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:26:54.540 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:26:54.540 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:26:54.540 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:27:04.590 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:27:04.590 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:27:04.590 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:27:14.646 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:27:14.647 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:27:14.647 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:27:24.696 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:27:24.696 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:27:24.696 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:27:34.743 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:27:34.744 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:27:34.744 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:27:44.806 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:27:44.806 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:27:44.806 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:27:54.860 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:27:54.860 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:27:54.860 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:28:04.907 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:28:04.907 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:28:04.907 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:28:14.956 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:28:14.956 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:28:14.956 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:28:25.005 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:28:25.005 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:28:25.005 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:28:35.056 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:28:35.057 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:28:35.057 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:28:45.106 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:28:45.106 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:28:45.106 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:28:55.155 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:28:55.155 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:28:55.155 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:29:05.221 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:29:05.221 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:29:05.221 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:29:15.268 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:29:15.269 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:29:15.269 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:29:25.313 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:29:25.313 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:29:25.314 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:29:35.371 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:29:35.371 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:29:35.371 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:29:45.427 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:29:45.427 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:29:45.427 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:29:55.475 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:29:55.475 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:29:55.475 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:30:05.524 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:30:05.524 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:30:05.524 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:30:15.571 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:30:15.571 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:30:15.571 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:30:25.627 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:30:25.627 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:30:25.627 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:30:35.674 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:30:35.674 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:30:35.674 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:30:45.722 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:30:45.722 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:30:45.722 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:30:55.778 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:30:55.778 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:30:55.778 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:31:05.831 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:31:05.832 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:31:05.832 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:31:15.879 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:31:15.879 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:31:15.879 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:31:25.937 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:31:25.937 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:31:25.937 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:31:35.986 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:31:35.986 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:31:35.986 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:31:46.029 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:31:46.030 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:31:46.030 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:31:56.089 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:31:56.089 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:31:56.089 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:32:06.133 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:32:06.133 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:32:06.133 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:32:16.181 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:32:16.181 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:32:16.181 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:32:26.230 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:32:26.230 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:32:26.230 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:32:36.305 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:32:36.306 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:32:36.306 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:32:46.365 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:32:46.366 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:32:46.366 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:32:56.414 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:32:56.414 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:32:56.414 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:33:06.459 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:33:06.460 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:33:06.460 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:33:16.517 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:33:16.518 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:33:16.518 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:33:26.564 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:33:26.564 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:33:26.564 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:33:36.608 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:33:36.608 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:33:36.608 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:33:46.664 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:33:46.664 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:33:46.664 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:33:56.710 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:33:56.710 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:33:56.710 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:34:06.757 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:34:06.757 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:34:06.757 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:34:16.817 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:34:16.817 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:34:16.817 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:34:26.862 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:34:26.862 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:34:26.862 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:34:36.914 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:34:36.914 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:34:36.914 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:34:46.959 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:34:46.959 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:34:46.959 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:34:57.012 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:34:57.012 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:34:57.012 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:35:07.069 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:35:07.070 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:35:07.070 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:35:17.115 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:35:17.115 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:35:17.115 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:35:27.162 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:35:27.162 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:35:27.162 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:35:37.217 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:35:37.217 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:35:37.217 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:35:47.263 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:35:47.263 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:35:47.263 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:35:57.319 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:35:57.319 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:35:57.319 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:36:07.365 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:36:07.365 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:36:07.366 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:36:17.411 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:36:17.411 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:36:17.411 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:36:27.467 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:36:27.467 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:36:27.467 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:36:37.512 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:36:37.512 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:36:37.512 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:36:47.565 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:36:47.565 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:36:47.565 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:36:57.611 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:36:57.611 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:36:57.611 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:37:07.657 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:37:07.657 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:37:07.657 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:37:17.703 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:37:17.703 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:37:17.703 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:37:27.755 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:37:27.756 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:37:27.756 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:37:37.811 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:37:37.811 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:37:37.811 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:37:47.858 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:37:47.859 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:37:47.859 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:37:57.914 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:37:57.914 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:37:57.914 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:38:07.959 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:38:07.959 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:38:07.959 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:38:18.011 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:38:18.012 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:38:18.012 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:38:28.059 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:38:28.059 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:38:28.059 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:38:38.107 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:38:38.107 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:38:38.107 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:38:48.155 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:38:48.156 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:38:48.156 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:38:58.203 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:38:58.203 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:38:58.203 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:39:08.256 [Thread-109] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:39:08.256 [Thread-109] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:39:08.256 [Thread-109] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[INFO ] 2019-07-18 16:40:06.218 [ServerService Thread Pool -- 69] InitializeListener - *********************************
+[INFO ] 2019-07-18 16:40:06.347 [ServerService Thread Pool -- 69] InitializeListener - *     INICIANDO APLICACION      *
+[INFO ] 2019-07-18 16:40:06.347 [ServerService Thread Pool -- 69] InitializeListener - *********************************
+[ERROR] 2019-07-18 16:40:22.818 [Thread-104] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:40:22.819 [Thread-104] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:40:22.819 [Thread-104] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:40:32.987 [Thread-104] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:40:32.988 [Thread-104] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:40:32.988 [Thread-104] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:40:43.103 [Thread-104] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:40:43.103 [Thread-104] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:40:43.103 [Thread-104] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:40:53.263 [Thread-104] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:40:53.263 [Thread-104] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:40:53.263 [Thread-104] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[ERROR] 2019-07-18 16:41:03.403 [Thread-104] VentanillaServiceImpl - Error de comunicacion : HTTP error code : 404
+[ERROR] 2019-07-18 16:41:03.403 [Thread-104] VentanillaServiceImpl - Error de comunicacion: null
+[ERROR] 2019-07-18 16:41:03.403 [Thread-104] InitializationThread - Error contextInitialized java.lang.RuntimeException
+[INFO ] 2019-07-18 16:41:57.242 [ServerService Thread Pool -- 69] InitializeListener - *********************************
+[INFO ] 2019-07-18 16:41:57.295 [ServerService Thread Pool -- 69] InitializeListener - *     INICIANDO APLICACION      *
+[INFO ] 2019-07-18 16:41:57.295 [ServerService Thread Pool -- 69] InitializeListener - *********************************
+[INFO ] 2019-07-18 16:42:32.739 [Thread-107] InitializationThread - Estados de las ventanillas inicializadas correctamente

@@ -1,0 +1,34 @@
+[INFO ] 2019-07-18 14:41:36.618 [default task-1] Logger4j - ********** Valida licencia **********
+[INFO ] 2019-07-18 14:41:36.624 [default task-1] Logger4j - Path licencia: /home/developer/Documents/instaladorLinux/linux/config/Licencia_Bmatic5.xml
+[INFO ] 2019-07-18 14:41:36.624 [default task-1] Logger4j - Input Compañia: SCOTIABANK
+[INFO ] 2019-07-18 14:41:36.652 [default task-1] Logger4j - Licencia encrypt: B9969C64FA0A2C54EBAC79F7BD156221
+[INFO ] 2019-07-18 14:41:36.660 [default task-1] Logger4j - Value: 0 Msg: 
+[INFO ] 2019-07-18 14:41:36.660 [default task-1] Logger4j - ********** Fin valida licencia **********
+[INFO ] 2019-07-18 14:45:11.540 [default task-1] Logger4j - ********** Valida licencia **********
+[INFO ] 2019-07-18 14:45:11.545 [default task-1] Logger4j - Path licencia: /home/developer/Documents/instaladorLinux/linux/config/Licencia_Bmatic5.xml
+[INFO ] 2019-07-18 14:45:11.545 [default task-1] Logger4j - Input Compañia: SCOTIABANK
+[INFO ] 2019-07-18 14:45:11.563 [default task-1] Logger4j - Licencia encrypt: B9969C64FA0A2C54EBAC79F7BD156221
+[INFO ] 2019-07-18 14:45:11.568 [default task-1] Logger4j - Value: 0 Msg: 
+[INFO ] 2019-07-18 14:45:11.568 [default task-1] Logger4j - ********** Fin valida licencia **********
+[INFO ] 2019-07-18 14:45:25.657 [default task-1] Logger4j - Thursday, July 18 2019-Inicia Session:AdminCentral
+[INFO ] 2019-07-18 14:45:56.581 [default task-2] Logger4j - ********** Valida licencia **********
+[INFO ] 2019-07-18 14:45:56.581 [default task-2] Logger4j - Path licencia: /home/developer/Documents/instaladorLinux/linux/config/Licencia_Bmatic5.xml
+[INFO ] 2019-07-18 14:45:56.581 [default task-2] Logger4j - Input Compañia: SCOTIABANK
+[INFO ] 2019-07-18 14:45:56.583 [default task-2] Logger4j - Licencia encrypt: B9969C64FA0A2C54EBAC79F7BD156221
+[INFO ] 2019-07-18 14:45:56.585 [default task-2] Logger4j - Value: 0 Msg: 
+[INFO ] 2019-07-18 14:45:56.585 [default task-2] Logger4j - ********** Fin valida licencia **********
+[ERROR] 2019-07-18 15:37:24.330 [ServerService Thread Pool -- 79] Logger4j - [InicioServlet.init] ERROR: java.io.FileNotFoundException: /home/developer/Documents/instaladorLinux/linux/config/global.properties (No such file or directory)
+[ERROR] 2019-07-18 15:40:50.690 [ServerService Thread Pool -- 97] Logger4j - [InicioServlet.init] ERROR: java.io.FileNotFoundException: /home/developer/Documents/instaladorLinux/linux/config/global.properties (No such file or directory)
+[INFO ] 2019-07-18 16:00:04.248 [default task-1] Logger4j - ********** Valida licencia **********
+[INFO ] 2019-07-18 16:00:04.270 [default task-1] Logger4j - Path licencia: /home/developer/Documents/instaladorLinux/linux/config/Licencia_Bmatic5.xml
+[INFO ] 2019-07-18 16:00:04.270 [default task-1] Logger4j - Input Compañia: SCOTIABANK
+[INFO ] 2019-07-18 16:00:04.301 [default task-1] Logger4j - Licencia encrypt: B9969C64FA0A2C54EBAC79F7BD156221
+[INFO ] 2019-07-18 16:00:04.308 [default task-1] Logger4j - Value: 0 Msg: 
+[INFO ] 2019-07-18 16:00:04.308 [default task-1] Logger4j - ********** Fin valida licencia **********
+[ERROR] 2019-07-18 16:05:10.459 [ServerService Thread Pool -- 102] Logger4j - [InicioServlet.init] ERROR: java.io.FileNotFoundException: /home/developer/Documents/instaladorLinux/linux/config/global.properties (No such file or directory)
+[INFO ] 2019-07-18 16:43:28.478 [default task-1] Logger4j - ********** Valida licencia **********
+[INFO ] 2019-07-18 16:43:28.493 [default task-1] Logger4j - Path licencia: /home/developer/Documents/instaladorLinux/linux/config/Licencia_Bmatic5.xml
+[INFO ] 2019-07-18 16:43:28.493 [default task-1] Logger4j - Input Compañia: SCOTIABANK
+[INFO ] 2019-07-18 16:43:28.514 [default task-1] Logger4j - Licencia encrypt: B9969C64FA0A2C54EBAC79F7BD156221
+[INFO ] 2019-07-18 16:43:28.520 [default task-1] Logger4j - Value: 0 Msg: 
+[INFO ] 2019-07-18 16:43:28.520 [default task-1] Logger4j - ********** Fin valida licencia **********

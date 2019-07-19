@@ -1,0 +1,2 @@
+rabbitmq:
+  uri: amqp://admin:admin@localhost/bmatic

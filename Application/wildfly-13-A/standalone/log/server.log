@@ -1,0 +1,65 @@
+2019-07-19 11:16:13,731 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0236: Suspending server with no timeout.
+2019-07-19 11:16:13,787 INFO  [org.jboss.as.ejb3] (Thread-2) WFLYEJB0493: EJB subsystem suspension complete
+2019-07-19 11:16:13,788 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2019-07-19 11:16:13,903 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 118) WFLYUT0022: Unregistered web context: '/VentanillaContingencia' from server 'default-server'
+2019-07-19 11:16:13,904 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 117) WFLYUT0022: Unregistered web context: '/AdmParamSis' from server 'default-server'
+2019-07-19 11:16:13,903 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 121) WFLYUT0022: Unregistered web context: '/ldap-webservice' from server 'default-server'
+2019-07-19 11:16:13,903 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 85) WFLYUT0022: Unregistered web context: '/BMatic_AdminOrg' from server 'default-server'
+2019-07-19 11:16:13,903 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 120) WFLYUT0022: Unregistered web context: '/spring-rest-client' from server 'default-server'
+2019-07-19 11:16:13,903 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 119) WFLYUT0022: Unregistered web context: '/PruebaChannel' from server 'default-server'
+2019-07-19 11:16:13,913 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 123) WFLYUT0022: Unregistered web context: '/Reportes/clientReport' from server 'default-server'
+2019-07-19 11:16:13,922 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 122) WFLYUT0022: Unregistered web context: '/ConfAgencia' from server 'default-server'
+2019-07-19 11:16:13,922 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 124) WFLYUT0022: Unregistered web context: '/BMatic_AdminOrg_Perfiles' from server 'default-server'
+2019-07-19 11:16:13,923 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 127) WFLYUT0022: Unregistered web context: '/BMATIC_MAINSECURITY' from server 'default-server'
+2019-07-19 11:16:13,924 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 128) WFLYUT0022: Unregistered web context: '/AdmUbicGeo' from server 'default-server'
+2019-07-19 11:16:13,924 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 129) WFLYUT0022: Unregistered web context: '/Reportes' from server 'default-server'
+2019-07-19 11:16:13,927 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 130) WFLYUT0022: Unregistered web context: '/report-client' from server 'default-server'
+2019-07-19 11:16:13,945 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 125) WFLYUT0022: Unregistered web context: '/ADM_USUARIOS' from server 'default-server'
+2019-07-19 11:16:13,946 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 126) WFLYUT0022: Unregistered web context: '/ModuloAdminAlarmas' from server 'default-server'
+2019-07-19 11:16:13,945 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 120) Destroying Spring FrameworkServlet 'spring'
+2019-07-19 11:16:13,947 INFO  [org.springframework.web.context.support.XmlWebApplicationContext] (ServerService Thread Pool -- 120) Closing WebApplicationContext for namespace 'spring-servlet': startup date [Thu Jul 18 16:42:37 PET 2019]; parent: Root WebApplicationContext
+2019-07-19 11:16:13,951 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:jboss/datasources/BDDataMart]
+2019-07-19 11:16:13,951 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:jboss/datasources/BDSeguridad]
+2019-07-19 11:16:13,959 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 131) WFLYUT0022: Unregistered web context: '/ModuloGestionCola' from server 'default-server'
+2019-07-19 11:16:13,971 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 120) Closing Spring root WebApplicationContext
+2019-07-19 11:16:13,972 INFO  [org.springframework.web.context.support.XmlWebApplicationContext] (ServerService Thread Pool -- 120) Closing Root WebApplicationContext: startup date [Thu Jul 18 16:42:31 PET 2019]; root of context hierarchy
+2019-07-19 11:16:14,016 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0019: Host default-host stopping
+2019-07-19 11:16:14,069 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 123) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2019-07-19 11:16:14,111 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 128) WFLYJPA0004: Stopping Persistence Unit Service 'bmatic-management.ear/prueba-channel.war#default'
+2019-07-19 11:16:14,112 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 123) WFLYJPA0004: Stopping Persistence Unit Service 'bmatic-management.ear/adm-alarmas.war#default'
+2019-07-19 11:16:14,112 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 119) WFLYJPA0004: Stopping Persistence Unit Service 'bmatic-management.ear/conf-agencia.war#default'
+2019-07-19 11:16:14,112 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 131) WFLYJPA0004: Stopping Persistence Unit Service 'bmatic-management.ear/reportes.war#default'
+2019-07-19 11:16:14,112 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 129) WFLYJPA0004: Stopping Persistence Unit Service 'bmatic-management.ear/adminorg.war#default'
+2019-07-19 11:16:14,112 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 120) WFLYJPA0004: Stopping Persistence Unit Service 'bmatic-management.ear/gestion-cola.war#default'
+2019-07-19 11:16:14,117 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 85) WFLYJPA0004: Stopping Persistence Unit Service 'bmatic-management.ear/adm-param.war#default'
+2019-07-19 11:16:14,124 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2019-07-19 11:16:14,125 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment report-client.war (runtime-name: report-client.war) in 317ms
+2019-07-19 11:16:14,125 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2019-07-19 11:16:14,127 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 117) WFLYJPA0004: Stopping Persistence Unit Service 'bmatic-management.ear/ubigeo.war#default'
+2019-07-19 11:16:14,132 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:jboss/datasources/PruebaChannelDS]
+2019-07-19 11:16:14,133 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0010: Unbound data source [java:jboss/datasources/BDCentral]
+2019-07-19 11:16:14,139 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0019: Stopped Driver service with driver-name = sqljdbc4.jar
+2019-07-19 11:16:14,367 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0208: Stopped subdeployment (runtime-name: ldap-ejb.jar) in 551ms
+2019-07-19 11:16:14,377 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment sqljdbc4.jar (runtime-name: sqljdbc4.jar) in 556ms
+2019-07-19 11:16:14,377 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0208: Stopped subdeployment (runtime-name: ldap-webservice.war) in 565ms
+2019-07-19 11:16:14,378 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0208: Stopped subdeployment (runtime-name: jasper-client.war) in 576ms
+2019-07-19 11:16:14,380 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0208: Stopped subdeployment (runtime-name: mainsecurity.war) in 573ms
+2019-07-19 11:16:14,380 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0208: Stopped subdeployment (runtime-name: ventanilla-contingencia.war) in 550ms
+2019-07-19 11:16:14,381 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0208: Stopped subdeployment (runtime-name: report-client.war) in 551ms
+2019-07-19 11:16:14,381 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0208: Stopped subdeployment (runtime-name: gestion-cola.war) in 574ms
+2019-07-19 11:16:14,382 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0208: Stopped subdeployment (runtime-name: ubigeo.war) in 559ms
+2019-07-19 11:16:14,386 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0208: Stopped subdeployment (runtime-name: adm-alarmas.war) in 574ms
+2019-07-19 11:16:14,386 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0208: Stopped subdeployment (runtime-name: conf-agencia.war) in 554ms
+2019-07-19 11:16:14,387 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0208: Stopped subdeployment (runtime-name: reportes.war) in 578ms
+2019-07-19 11:16:14,391 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0208: Stopped subdeployment (runtime-name: adminorg-perfiles.war) in 582ms
+2019-07-19 11:16:14,400 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0008: Undertow HTTP listener default suspending
+2019-07-19 11:16:14,401 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0008: Undertow HTTPS listener https suspending
+2019-07-19 11:16:14,405 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0208: Stopped subdeployment (runtime-name: adm-usuarios.war) in 594ms
+2019-07-19 11:16:14,406 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 0.0.0.0:8453
+2019-07-19 11:16:14,406 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 0.0.0.0:8090
+2019-07-19 11:16:14,439 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0004: Undertow 2.0.9.Final stopping
+2019-07-19 11:16:14,482 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0208: Stopped subdeployment (runtime-name: adm-param.war) in 655ms
+2019-07-19 11:16:14,502 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0208: Stopped subdeployment (runtime-name: prueba-channel.war) in 671ms
+2019-07-19 11:16:14,509 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0208: Stopped subdeployment (runtime-name: adminorg.war) in 681ms
+2019-07-19 11:16:14,617 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment bmatic-management.ear (runtime-name: bmatic-management.ear) in 797ms
+2019-07-19 11:16:14,620 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: WildFly Full 13.0.0.Final (WildFly Core 5.0.0.Final) stopped in 808ms

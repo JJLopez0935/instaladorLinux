@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xml>
+  <Datos>
+  	<!--Parámetro de la ruta donde se encuentra la Licencia-->
+	<RutaLicencia>/home/developer/Documents/licencia</RutaLicencia>
+	<!--Parámetros Tipo de Servidor: 0(Local), 1(Central)-->
+	<TIPOSERVIDOR>1</TIPOSERVIDOR>
+	<!--Parámetros de Apache-->
+	<IPApache>192.168.62.102</IPApache> 
+	<PortApache>80</PortApache>
+	<!--Puertos Wildfly A y B-->
+    <PORTJBOSSA>8090</PORTJBOSSA>
+	<PORTJBOSSB>8091</PORTJBOSSB>
+    <!--ip o nombre de servidor de BD Operativa-->
+	<Server>192.168.63.204</Server>
+    <PortDB>1433</PortDB>
+	<!--usuario BD Operativa-->
+	<User>sa</User>
+    <!--password BD Operativa-->
+	<Pwd2>-625dcd088eb47a57</Pwd2>
+	<!--Parámetro de instalación de BD: Si, No-->
+	<InstallBD>Si</InstallBD>
+	<!--Parámetro de instalación de prerrequisitos: Si, No-->
+	<InstallPrerequisitos>Si</InstallPrerequisitos>
+	<!--Parámetro de instalación de servicios: Administrativos, Operativos o Todos-->
+	<SERVICIOS>Todos</SERVICIOS>
+	<!--Parámetro de protocolo de navegacion: http, https-->
+	<Protocolo>http</Protocolo>
+	<!--PARÁMETROS PARA UNA INSTALACIÓN DISTRIBUIDA-->
+	<!--IP de Servidor Central(Apache)-->
+	<IPC>IP DE SERVIDOR CENTRAL</IPC>
+	<!--Puerto de Tomcat, Default:8080-->
+	<PORTTOMCAT>8080</PORTTOMCAT>
+	<!--PASSWORD DE BASE DE DATOS PARA SYMETRIC-->
+	<PWDSYM>PASSWORD SYMMETRIC</PWDSYM>
+  </Datos>
+</xml>

@@ -1,0 +1,3 @@
+[INFO ] 2019-07-19 00:00:00.248 [default task-1] LdapController - Request: 0
+[INFO ] 2019-07-19 00:00:00.549 [default task-1] LdapSerivceImpl - LDAP inactive
+[INFO ] 2019-07-19 00:00:00.549 [default task-1] LdapSerivceImpl - Response: status: Success, description: LDAP inactive, newUsers: 0, updatedUsers: 0, deletedUsers: 0

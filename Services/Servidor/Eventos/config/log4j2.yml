@@ -1,0 +1,41 @@
+Configuration:
+  name: Default
+
+  Properties:
+    Property:
+      name: app
+      value: "event-server"
+    Property:
+      name: baseDir
+      value: "/opt/bmatic/log"
+
+  Appenders:
+    Console:
+      name: Console
+      target: SYSTEM_OUT
+      PatternLayout:
+        Pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"
+    RollingFile:
+      name: RollingFile
+      fileName: "${env:BMATIC_HOME}/Log/event-server/event-server.log"
+      filePattern: "${baseDir}/${app}/%d{yyyy-MM-dd-HH}-%i.log.zip"
+      DefaultRolloverStrategy:
+        max: 100
+        Delete:
+          basePath: ${baseDir}
+          IfLastModified:
+            age: 7d
+          IfAccumulatedFileSize:
+            exceeds: 1GB
+      Policies:
+        SizeBasedTriggeringPolicy:
+          size: 100MB
+      PatternLayout:
+        pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"
+
+  Loggers:
+    Root:
+      level: INFO
+      AppenderRef:
+        - ref: RollingFile
+        - ref: Console

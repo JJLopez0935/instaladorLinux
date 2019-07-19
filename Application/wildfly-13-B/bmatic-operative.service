@@ -1,0 +1,13 @@
+[Unit]
+
+Description=Bmatic Operative Service
+
+[Service]
+Type=forking
+RestartSec=5
+ExecStart=$BMATIC_HOME/Application/wildfly-13-B/start.sh
+Environment="BMATIC_HOME=$BMATIC_HOME"
+SuccessExitStatus=143
+TimeoutStopSec=10
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,32 @@
+ERROR 2019-07-18 10:21:15 | [HCProcesoBatchTask]: Falló conexión a base de datos. Reintentando...
+java.lang.RuntimeException: java.lang.NumberFormatException: For input string: "Server1"
+	at pe.com.hiper.lib.encryptor.BlowfishEncryptor.decode(BlowfishEncryptor.java:32)
+	at pe.com.hiper.bmatic.services.monitoring.dbManager.HibernateConnector.<init>(HibernateConnector.java:39)
+	at pe.com.hiper.bmatic.services.monitoring.dbManager.HibernateConnector.getInstance(HibernateConnector.java:54)
+	at pe.com.hiper.bmatic.services.monitoring.dbaccess.ServerCentral.getPerfilCentral(ServerCentral.java:28)
+	at pe.com.hiper.bmatic.services.monitoring.HCProcesoBatchTask.<init>(HCProcesoBatchTask.java:133)
+	at pe.com.hiper.bmatic.services.monitoring.HCTimer.iniciarProcesamiento(HCTimer.java:81)
+	at pe.com.hiper.bmatic.services.monitoring.main.HCMain.main(HCMain.java:34)
+Caused by: java.lang.NumberFormatException: For input string: "Server1"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.math.BigInteger.<init>(BigInteger.java:470)
+	at pe.com.hiper.lib.encryptor.BlowfishEncryptor.decode(BlowfishEncryptor.java:27)
+	... 6 more
+INFO  2019-07-18 10:21:15 | [HCTimer.iniciarProcesamiento()]: No existe configuración para el Servicio de Monitoreo
+ERROR 2019-07-18 10:24:43 | [HCProcesoBatchTask]: Falló conexión a base de datos. Reintentando...
+java.lang.RuntimeException: java.lang.NumberFormatException: For input string: "Server1"
+	at pe.com.hiper.lib.encryptor.BlowfishEncryptor.decode(BlowfishEncryptor.java:32)
+	at pe.com.hiper.bmatic.services.monitoring.dbManager.HibernateConnector.<init>(HibernateConnector.java:39)
+	at pe.com.hiper.bmatic.services.monitoring.dbManager.HibernateConnector.getInstance(HibernateConnector.java:54)
+	at pe.com.hiper.bmatic.services.monitoring.dbaccess.ServerCentral.getPerfilCentral(ServerCentral.java:28)
+	at pe.com.hiper.bmatic.services.monitoring.HCProcesoBatchTask.<init>(HCProcesoBatchTask.java:133)
+	at pe.com.hiper.bmatic.services.monitoring.HCTimer.iniciarProcesamiento(HCTimer.java:81)
+	at pe.com.hiper.bmatic.services.monitoring.main.HCMain.main(HCMain.java:34)
+Caused by: java.lang.NumberFormatException: For input string: "Server1"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.math.BigInteger.<init>(BigInteger.java:470)
+	at pe.com.hiper.lib.encryptor.BlowfishEncryptor.decode(BlowfishEncryptor.java:27)
+	... 6 more
+INFO  2019-07-18 10:24:43 | [HCTimer.iniciarProcesamiento()]: No existe configuración para el Servicio de Monitoreo

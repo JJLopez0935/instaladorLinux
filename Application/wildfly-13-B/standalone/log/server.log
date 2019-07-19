@@ -1,0 +1,73 @@
+2019-07-19 11:16:12,309 INFO  [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext] (Thread-108) Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@326ed15: startup date [Thu Jul 18 16:41:47 PET 2019]; root of context hierarchy
+2019-07-19 11:16:12,388 INFO  [org.springframework.context.support.DefaultLifecycleProcessor] (Thread-108) Stopping beans in phase 0
+2019-07-19 11:16:12,389 INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter] (Thread-108) Unregistering JMX-exposed beans on shutdown
+2019-07-19 11:16:12,390 INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter] (Thread-108) Unregistering JMX-exposed beans
+2019-07-19 11:16:12,391 INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter] (Thread-108) Unregistering JMX-exposed beans on shutdown
+2019-07-19 11:16:12,417 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0236: Suspending server with no timeout.
+2019-07-19 11:16:12,436 INFO  [org.jboss.as.ejb3] (Thread-2) WFLYEJB0493: EJB subsystem suspension complete
+2019-07-19 11:16:12,438 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2019-07-19 11:16:12,498 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = ventanilla-ws.war_oracle.jdbc.OracleDriver_11_2
+2019-07-19 11:16:12,520 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 88) WFLYUT0022: Unregistered web context: '/ChannelLiteBanner' from server 'default-server'
+2019-07-19 11:16:12,522 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 91) WFLYUT0022: Unregistered web context: '/ChannelLiteTickets' from server 'default-server'
+2019-07-19 11:16:12,522 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0010: Unbound data source [java:jboss/datasources/BDSeguridad]
+2019-07-19 11:16:12,522 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 90) WFLYUT0022: Unregistered web context: '/wscongestion' from server 'default-server'
+2019-07-19 11:16:12,524 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 96) WFLYUT0022: Unregistered web context: '/WSEnvioCorreo' from server 'default-server'
+2019-07-19 11:16:12,526 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 97) WFLYUT0022: Unregistered web context: '/WSEnvioSms' from server 'default-server'
+2019-07-19 11:16:12,529 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 93) WFLYUT0022: Unregistered web context: '/VentanillaWeb' from server 'default-server'
+2019-07-19 11:16:12,530 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 92) WFLYUT0022: Unregistered web context: '/Ventanilla' from server 'default-server'
+2019-07-19 11:16:12,530 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:jboss/datasources/BDCentral]
+2019-07-19 11:16:12,531 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 95) WFLYUT0022: Unregistered web context: '/ChannelLite' from server 'default-server'
+2019-07-19 11:16:12,537 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 94) WFLYUT0022: Unregistered web context: '/WSBmaticTicketera' from server 'default-server'
+2019-07-19 11:16:12,540 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0010: Unbound data source [java:jboss/datasources/BDDataMart]
+2019-07-19 11:16:12,541 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0010: Unbound data source [java:jboss/datasources/PruebaChannelDS]
+2019-07-19 11:16:12,597 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 96) Destroying Spring FrameworkServlet 'dispatcher'
+2019-07-19 11:16:12,597 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 94) Destroying Spring FrameworkServlet 'rest'
+2019-07-19 11:16:12,598 INFO  [org.springframework.web.context.support.AnnotationConfigWebApplicationContext] (ServerService Thread Pool -- 96) Closing Root WebApplicationContext: startup date [Thu Jul 18 16:42:02 PET 2019]; root of context hierarchy
+2019-07-19 11:16:12,598 INFO  [org.springframework.web.context.support.XmlWebApplicationContext] (ServerService Thread Pool -- 94) Closing WebApplicationContext for namespace 'rest-servlet': startup date [Thu Jul 18 16:42:28 PET 2019]; parent: Root WebApplicationContext
+2019-07-19 11:16:12,601 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 88) Destroying Spring FrameworkServlet 'rest'
+2019-07-19 11:16:12,602 INFO  [org.springframework.web.context.support.XmlWebApplicationContext] (ServerService Thread Pool -- 88) Closing WebApplicationContext for namespace 'rest-servlet': startup date [Thu Jul 18 16:42:22 PET 2019]; parent: Root WebApplicationContext
+2019-07-19 11:16:12,602 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 91) Destroying Spring FrameworkServlet 'rest'
+2019-07-19 11:16:12,603 INFO  [org.springframework.web.context.support.XmlWebApplicationContext] (ServerService Thread Pool -- 91) Closing WebApplicationContext for namespace 'rest-servlet': startup date [Thu Jul 18 16:42:18 PET 2019]; parent: Root WebApplicationContext
+2019-07-19 11:16:12,604 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 92) Destroying Spring FrameworkServlet 'rest'
+2019-07-19 11:16:12,604 INFO  [org.springframework.web.context.support.XmlWebApplicationContext] (ServerService Thread Pool -- 92) Closing WebApplicationContext for namespace 'rest-servlet': startup date [Thu Jul 18 16:42:29 PET 2019]; parent: Root WebApplicationContext
+2019-07-19 11:16:12,610 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 95) Destroying Spring FrameworkServlet 'rest'
+2019-07-19 11:16:12,611 INFO  [org.springframework.web.context.support.XmlWebApplicationContext] (ServerService Thread Pool -- 95) Closing WebApplicationContext for namespace 'rest-servlet': startup date [Thu Jul 18 16:42:23 PET 2019]; parent: Root WebApplicationContext
+2019-07-19 11:16:12,629 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 95) Destroying Spring FrameworkServlet 'dispatcher'
+2019-07-19 11:16:12,630 INFO  [org.springframework.web.context.support.AnnotationConfigWebApplicationContext] (ServerService Thread Pool -- 95) Closing Root WebApplicationContext: startup date [Thu Jul 18 16:42:02 PET 2019]; root of context hierarchy
+2019-07-19 11:16:12,633 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 90) Closing Spring root WebApplicationContext
+2019-07-19 11:16:12,725 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 94) Destroying Spring FrameworkServlet 'dispatcher'
+2019-07-19 11:16:12,725 INFO  [org.springframework.web.context.support.AnnotationConfigWebApplicationContext] (ServerService Thread Pool -- 94) Closing Root WebApplicationContext: startup date [Thu Jul 18 16:42:03 PET 2019]; root of context hierarchy
+2019-07-19 11:16:12,725 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 88) Destroying Spring FrameworkServlet 'dispatcher'
+2019-07-19 11:16:12,726 INFO  [org.springframework.web.context.support.AnnotationConfigWebApplicationContext] (ServerService Thread Pool -- 88) Closing Root WebApplicationContext: startup date [Thu Jul 18 16:42:02 PET 2019]; root of context hierarchy
+2019-07-19 11:16:12,729 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 91) Destroying Spring FrameworkServlet 'dispatcher'
+2019-07-19 11:16:12,730 INFO  [org.springframework.web.context.support.AnnotationConfigWebApplicationContext] (ServerService Thread Pool -- 91) Closing Root WebApplicationContext: startup date [Thu Jul 18 16:42:02 PET 2019]; root of context hierarchy
+2019-07-19 11:16:12,730 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 92) Destroying Spring FrameworkServlet 'dispatcher'
+2019-07-19 11:16:12,731 INFO  [org.springframework.web.context.support.AnnotationConfigWebApplicationContext] (ServerService Thread Pool -- 92) Closing Root WebApplicationContext: startup date [Thu Jul 18 16:42:03 PET 2019]; root of context hierarchy
+2019-07-19 11:16:12,732 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 96) Closing Spring root WebApplicationContext
+2019-07-19 11:16:12,740 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 94) Closing Spring root WebApplicationContext
+2019-07-19 11:16:12,742 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0019: Stopped Driver service with driver-name = sqljdbc4.jar
+2019-07-19 11:16:12,756 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 95) Closing Spring root WebApplicationContext
+2019-07-19 11:16:12,757 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 92) Closing Spring root WebApplicationContext
+2019-07-19 11:16:12,757 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 88) Closing Spring root WebApplicationContext
+2019-07-19 11:16:12,758 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 91) Closing Spring root WebApplicationContext
+2019-07-19 11:16:12,834 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0019: Host default-host stopping
+2019-07-19 11:16:12,837 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2019-07-19 11:16:12,879 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2019-07-19 11:16:12,931 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 108) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2019-07-19 11:16:13,159 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0208: Stopped subdeployment (runtime-name: channel-lite-tickets.war) in 707ms
+2019-07-19 11:16:13,160 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment sqljdbc4.jar (runtime-name: sqljdbc4.jar) in 705ms
+2019-07-19 11:16:13,161 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0208: Stopped subdeployment (runtime-name: ventanilla-web.war) in 698ms
+2019-07-19 11:16:13,164 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0208: Stopped subdeployment (runtime-name: envio-sms-ws.war) in 698ms
+2019-07-19 11:16:13,173 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0008: Undertow HTTP listener default suspending
+2019-07-19 11:16:13,176 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0208: Stopped subdeployment (runtime-name: envio-correo-ws.war) in 714ms
+2019-07-19 11:16:13,177 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0208: Stopped subdeployment (runtime-name: channel-lite-banner.war) in 720ms
+2019-07-19 11:16:13,178 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0008: Undertow HTTPS listener https suspending
+2019-07-19 11:16:13,178 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0208: Stopped subdeployment (runtime-name: ventanilla-ws.war) in 716ms
+2019-07-19 11:16:13,179 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 0.0.0.0:8091
+2019-07-19 11:16:13,181 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 0.0.0.0:8454
+2019-07-19 11:16:13,253 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0208: Stopped subdeployment (runtime-name: channel-lite.war) in 790ms
+2019-07-19 11:16:13,300 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0004: Undertow 2.0.9.Final stopping
+2019-07-19 11:16:13,306 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0208: Stopped subdeployment (runtime-name: ticketera-ws.war) in 844ms
+2019-07-19 11:16:13,410 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment wscongestion.war (runtime-name: wscongestion.war) in 948ms
+2019-07-19 11:16:13,443 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment bmatic-operative.ear (runtime-name: bmatic-operative.ear) in 980ms
+2019-07-19 11:16:13,470 INFO  [org.jboss.as] (MSC service thread 1-5) WFLYSRV0050: WildFly Full 13.0.0.Final (WildFly Core 5.0.0.Final) stopped in 986ms

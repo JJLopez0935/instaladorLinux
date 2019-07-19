@@ -1,0 +1,27 @@
+﻿{
+  "API_ENDPOINTS": {
+    "cod_ticketera":"Q000003",
+    "bmatic_api_central":"http://192.168.62.102:80/api/v1",
+    "bmatic_api_local":"http://192.168.62.102:80/api/v1",
+    """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""bmatic_download_files":"http://192.168.62.102:80/TicketeraWeb/assets/files/",
+    "bmatic_api_alert":"http://192.168.62.102:80/WSBmaticTicketera",
+    "channel_id":"001"
+  },
+  "CONFIG_TICKETERA": {
+    "timeOut_ticket": 5,
+    "timeOut_msg_ticket": 5,
+    "keyboard_size": "large",
+    "keyboard_alpha_size": "large"
+  },
+  "MESSAGES_TICKETERA": {
+    "msg_sector": "No hay ventanillas disponibles",
+    "msg_ticket_service": "No hay un canal configurado para el servicio seleccionado",
+    "msg_customer": "El cliente ya tiene un ticket en espera",
+    "msg_Queue_type_configured": "No hay tipo de ticket asociado al tipo de ticket base",
+    "msg_printerPaper": "Impresora No Tiene Papel",
+    "msg_printerAvailable": "Impresora No Disponible",
+    "msg_validation_keyboard": "Nùmero Invalido",
+    "msg_validation_alphanumeric": "Nùmero Invalido"
+  }
+}
+

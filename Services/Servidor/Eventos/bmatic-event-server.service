@@ -1,0 +1,12 @@
+[Unit]
+Description=Bmatic Event Service
+[Service]
+Type=forking
+ExecStart=$BMATIC_HOME/Services/Servidor/Eventos/start.sh
+Environment="BMATIC_HOME=$BMATIC_HOME"
+SuccessExitStatus=143
+TimeoutStopSec=10
+Restart=on-failure
+RestartSec=5
+[Install]
+WantedBy=multi-user.target

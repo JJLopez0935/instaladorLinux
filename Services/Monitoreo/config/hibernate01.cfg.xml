@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd"[]>
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property>
+    <property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+    <property name="hibernate.connection.url">jdbc:sqlserver://192.168.63.204:1433;databaseName=dbBMatic</property>
+    <property name="hibernate.connection.username">sa</property>
+    <property name="hibernate.connection.password">-625dcd088eb47a57</property>
+    <mapping class="pe.com.hiper.bmatic.services.monitoring.entity.TaPerfilContAgencia" />
+    <mapping class="pe.com.hiper.bmatic.services.monitoring.entity.TmBIN" />
+    <mapping class="pe.com.hiper.bmatic.services.monitoring.entity.TaTTickPerfil" />
+    <mapping class="pe.com.hiper.bmatic.services.monitoring.entity.TaTTickVent" />
+    <mapping class="pe.com.hiper.bmatic.services.monitoring.entity.TmAgencia" />
+    <mapping class="pe.com.hiper.bmatic.services.monitoring.entity.TmDisplay" />
+    <mapping class="pe.com.hiper.bmatic.services.monitoring.entity.TmEsquemaContingencia" />
+    <mapping class="pe.com.hiper.bmatic.services.monitoring.entity.TmPais" />
+    <mapping class="pe.com.hiper.bmatic.services.monitoring.entity.TmPerfilVent" />
+    <mapping class="pe.com.hiper.bmatic.services.monitoring.entity.TmRegion" />
+    <mapping class="pe.com.hiper.bmatic.services.monitoring.entity.TmServerCentral" />
+    <mapping class="pe.com.hiper.bmatic.services.monitoring.entity.TmTTicket" />
+    <mapping class="pe.com.hiper.bmatic.services.monitoring.entity.TmVentanilla" />
+    <mapping class="pe.com.hiper.bmatic.services.monitoring.entity.TmZona" />
+    <mapping class="pe.com.hiper.bmatic.services.monitoring.entity.TpOperadorVentanilla" />
+    <mapping class="pe.com.hiper.bmatic.services.monitoring.entity.TpPerfilServicios" />
+    <mapping class="pe.com.hiper.bmatic.services.monitoring.entity.TpTicket" />
+    <mapping class="pe.com.hiper.bmatic.services.monitoring.entity.TxAdmSeguridad" />
+    <mapping class="pe.com.hiper.bmatic.services.monitoring.entity.TxLocalServer" />
+    <mapping class="pe.com.hiper.bmatic.services.monitoring.entity.TxParamGeneral" />
+    <mapping class="pe.com.hiper.bmatic.services.monitoring.entity.TmTTicketBase" />
+    <mapping class="pe.com.hiper.bmatic.services.monitoring.entity.TmTVentanilla" />
+    <mapping class="pe.com.hiper.bmatic.services.monitoring.entity.TmSector" />
+    <mapping class="pe.com.hiper.bmatic.services.monitoring.entity.TaPerfilAgencia" />
+    <mapping class="pe.com.hiper.bmatic.services.monitoring.entity.TmCnfgAlarma" />
+    <mapping class="pe.com.hiper.bmatic.services.monitoring.entity.TpTickOperacion" />
+    <mapping class="pe.com.hiper.bmatic.services.monitoring.entity.TmOperacion" />
+    <mapping class="pe.com.hiper.bmatic.services.monitoring.entity.TmTicketera" />
+    <mapping class="pe.com.hiper.bmatic.services.monitoring.entity.TmPerfilVentNew" />
+    <mapping class="pe.com.hiper.bmatic.services.monitoring.entity.TmEsquemaContingenciaNew" />
+    <mapping class="pe.com.hiper.bmatic.services.monitoring.entity.TaTTickPerfilNew" />
+    <mapping class="pe.com.hiper.bmatic.services.monitoring.entity.TmDisplayNew" />
+  </session-factory>
+</hibernate-configuration>

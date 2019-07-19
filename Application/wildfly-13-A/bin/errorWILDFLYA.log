@@ -1,0 +1,643 @@
+Calling "C:\Bmatic\Application\wildfly-13-A\bin\standalone.conf.bat"
+Setting JAVA property to "C:\Program Files\Java\jre1.8.0_201\bin\java"
+===============================================================================
+
+  JBoss Bootstrap Environment
+
+  JBOSS_HOME: "C:\Bmatic\Application\wildfly-13-A"
+
+  JAVA: "C:\Program Files\Java\jre1.8.0_201\bin\java"
+
+  JAVA_OPTS: "-Dcom.sun.jersey.server.impl.cdi.lookupExtensionInBeanManager=true -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman"
+
+===============================================================================
+
+11:12:36,346 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.5.Final
+11:12:36,877 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.2.Final
+11:12:36,893 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+11:12:37,018 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Full 13.0.0.Final (WildFly Core 5.0.0.Final) starting
+11:12:37,096 INFO  [org.jboss.vfs] (MSC service thread 1-5) VFS000002: Failed to clean existing content for temp file provider of type temp. Enable DEBUG level log to find what caused this
+11:12:38,877 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+11:12:38,909 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 17) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+11:12:38,924 INFO  [org.wildfly.security] (ServerService Thread Pool -- 7) ELY00001: WildFly Elytron version 1.3.3.Final
+11:12:39,002 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0015: Re-attempting failed deployment bmatic-management.ear
+11:12:39,018 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0015: Re-attempting failed deployment sqljdbc4.jar
+11:12:39,018 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found jasperserver.war in deployment directory. To trigger deployment create a file called jasperserver.war.dodeploy
+11:12:43,947 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+11:12:44,041 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.6.3.Final
+11:12:44,072 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.6.3.Final
+11:12:44,104 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 38) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+11:12:44,104 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 45) WFLYCLINF0001: Activating Infinispan subsystem.
+11:12:44,104 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 62) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+11:12:44,104 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 52) WFLYJSF0007: Activated the following JSF Implementations: [main]
+11:12:44,119 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 64) WFLYWS0002: Activating WebServices Extension
+11:12:44,135 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 54) WFLYNAM0001: Activating Naming Subsystem
+11:12:44,150 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 60) WFLYSEC0002: Activating Security Subsystem
+11:12:44,166 INFO  [org.jboss.as.security] (MSC service thread 1-3) WFLYSEC0001: Current PicketBox version=5.0.2.Final
+11:12:44,166 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 47) WFLYRS0016: RESTEasy version 3.5.1.Final
+11:12:44,213 INFO  [org.jboss.as.naming] (MSC service thread 1-1) WFLYNAM0003: Starting Naming Service
+11:12:44,229 INFO  [org.jboss.as.ee] (ServerService Thread Pool -- 41) WFLYEE0119: The system property 'ee8.preview.mode' is NOT set to 'true'. For provided EE 8 APIs where the EE 8 version of the API differs from what is supported in EE 7, the EE 7 variant of the API will be used. Support for this setting will be removed once all EE 8 APIs are provided and certified.
+11:12:44,260 INFO  [org.jboss.as.connector] (MSC service thread 1-3) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.9.Final)
+11:12:44,322 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-1) MSC000001: Failed to start service org.wildfly.security.security-event-listener.local-audit: org.jboss.msc.service.StartException in service org.wildfly.security.security-event-listener.local-audit: WFLYELY00004: Unable to start the service.
+	at org.wildfly.extension.elytron.AuditResourceDefinitions$1$1.get(AuditResourceDefinitions.java:227)
+	at org.wildfly.extension.elytron.AuditResourceDefinitions$1$1.get(AuditResourceDefinitions.java:210)
+	at org.wildfly.extension.elytron.TrivialService.start(TrivialService.java:53)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1736)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1698)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1556)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1364)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.FileNotFoundException: C:\Bmatic\Application\wildfly-13-A\standalone\log\audit.log (Acceso denegado)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.wildfly.security.audit.FileAuditEndpoint.setFile(FileAuditEndpoint.java:71)
+	at org.wildfly.security.audit.FileAuditEndpoint.<init>(FileAuditEndpoint.java:66)
+	at org.wildfly.security.audit.FileAuditEndpoint$Builder.build(FileAuditEndpoint.java:277)
+	at org.wildfly.extension.elytron.AuditResourceDefinitions$1$1.get(AuditResourceDefinitions.java:225)
+	... 10 more
+
+11:12:44,385 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = h2
+11:12:44,385 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+11:12:44,432 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0003: Undertow 2.0.9.Final starting
+11:12:44,447 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 46) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+11:12:44,541 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 5.0.7.Final
+11:12:44,588 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+11:12:44,604 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+11:12:44,760 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 63) WFLYUT0014: Creating file handler for path 'C:\Bmatic\Application\wildfly-13-A/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+11:12:44,807 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0012: Started server default-server.
+11:12:44,822 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0018: Host default-host starting
+11:12:44,869 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-5) MSC000001: Failed to start service org.wildfly.undertow.listener.default: org.jboss.msc.service.StartException in service org.wildfly.undertow.listener.default: Address already in use: bind /0.0.0.0:8090
+	at org.wildfly.extension.undertow.ListenerService.start(ListenerService.java:204)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1736)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1698)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1556)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Unknown Source)
+
+11:12:44,885 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0493: EJB subsystem suspension complete
+11:12:44,963 INFO  [org.jboss.as.patching] (MSC service thread 1-8) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+11:12:44,979 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+11:12:44,979 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Bmatic\Application\wildfly-13-A\standalone\deployments
+11:12:44,994 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "bmatic-management.ear" (runtime-name: "bmatic-management.ear")
+11:12:44,994 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-4) WFLYDM0111: Keystore C:\Bmatic\Application\wildfly-13-A\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+11:12:44,994 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "sqljdbc4.jar" (runtime-name: "sqljdbc4.jar")
+11:12:45,229 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-4) MSC000001: Failed to start service org.wildfly.management.http.extensible: org.jboss.msc.service.StartException in service org.wildfly.management.http.extensible: java.net.BindException: Address already in use: bind /127.0.0.1:9990
+	at org.jboss.as.server.mgmt.UndertowHttpManagementService.start(UndertowHttpManagementService.java:342)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1736)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1698)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1556)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Unknown Source)
+
+11:12:45,244 INFO  [org.jboss.vfs] (MSC service thread 1-3) VFS000002: Failed to clean existing content for temp file provider of type deployment. Enable DEBUG level log to find what caused this
+11:12:45,385 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-1) MSC000001: Failed to start service org.wildfly.undertow.listener.https: org.jboss.msc.service.StartException in service org.wildfly.undertow.listener.https: Address already in use: bind /0.0.0.0:8443
+	at org.wildfly.extension.undertow.ListenerService.start(ListenerService.java:204)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1736)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1698)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1556)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Unknown Source)
+
+11:13:23,385 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry lib/junit-3.8.2.jar in /C:/Bmatic/Application/wildfly-13-A/bin/content/bmatic-management.ear/lib/crypto.jar  does not point to a valid jar for a Class-Path reference.
+11:13:23,401 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jsr173_1.0_api.jar in /C:/Bmatic/Application/wildfly-13-A/bin/content/bmatic-management.ear/lib/jaxb-impl.jar  does not point to a valid jar for a Class-Path reference.
+11:13:23,401 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jaxb1-impl.jar in /C:/Bmatic/Application/wildfly-13-A/bin/content/bmatic-management.ear/lib/jaxb-impl.jar  does not point to a valid jar for a Class-Path reference.
+11:13:23,401 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jakarta-oro.jar in /C:/Bmatic/Application/wildfly-13-A/bin/content/bmatic-management.ear/lib/struts.jar  does not point to a valid jar for a Class-Path reference.
+11:13:23,416 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry toolbox.jar in /C:/Bmatic/Application/wildfly-13-A/bin/content/bmatic-management.ear/lib/itext.jar  does not point to a valid jar for a Class-Path reference.
+11:13:23,416 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry bcmail-jdk14-138.jar in /C:/Bmatic/Application/wildfly-13-A/bin/content/bmatic-management.ear/lib/itext.jar  does not point to a valid jar for a Class-Path reference.
+11:13:23,416 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry bcprov-jdk14-138.jar in /C:/Bmatic/Application/wildfly-13-A/bin/content/bmatic-management.ear/lib/itext.jar  does not point to a valid jar for a Class-Path reference.
+11:13:23,463 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0207: Starting subdeployment (runtime-name: "reportes.war")
+11:13:23,463 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0207: Starting subdeployment (runtime-name: "mainsecurity.war")
+11:13:23,463 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0207: Starting subdeployment (runtime-name: "conf-agencia.war")
+11:13:23,463 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0207: Starting subdeployment (runtime-name: "adminorg.war")
+11:13:23,463 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0207: Starting subdeployment (runtime-name: "adm-usuarios.war")
+11:13:23,463 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0207: Starting subdeployment (runtime-name: "adminorg-perfiles.war")
+11:13:23,463 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0207: Starting subdeployment (runtime-name: "prueba-channel.war")
+11:13:23,463 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0207: Starting subdeployment (runtime-name: "ldap-ejb.jar")
+11:13:23,463 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0207: Starting subdeployment (runtime-name: "ventanilla-contingencia.war")
+11:13:23,463 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0207: Starting subdeployment (runtime-name: "adm-alarmas.war")
+11:13:23,463 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0207: Starting subdeployment (runtime-name: "report-client.war")
+11:13:23,463 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0207: Starting subdeployment (runtime-name: "adm-param.war")
+11:13:23,463 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0207: Starting subdeployment (runtime-name: "ubigeo.war")
+11:13:23,479 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0207: Starting subdeployment (runtime-name: "gestion-cola.war")
+11:13:23,479 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0207: Starting subdeployment (runtime-name: "ldap-webservice.war")
+11:13:27,667 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("core-service" => "management"),
+    ("management-interface" => "http-interface")
+]) - failure description: {
+    "WFLYCTL0080: Failed services" => {"org.wildfly.management.http.extensible" => "java.net.BindException: Address already in use: bind /127.0.0.1:9990"},
+    "WFLYCTL0288: One or more services were unable to start due to one or more indirect dependencies not being available." => {
+        "Services that were unable to start:" => ["org.wildfly.management.http.extensible.shutdown"],
+        "Services that may be the cause:" => [
+            "jboss.clustering.web.route.default-server",
+            "jboss.data-source.common-deployment.\"jboss.naming.context.java.jboss.datasources.BDCentral\"",
+            "jboss.data-source.common-deployment.\"jboss.naming.context.java.jboss.datasources.BDDataMart\"",
+            "jboss.data-source.common-deployment.\"jboss.naming.context.java.jboss.datasources.BDSeguridad\"",
+            "jboss.data-source.common-deployment.\"jboss.naming.context.java.jboss.datasources.PruebaChannelDS\"",
+            "jboss.data-source.reference-factory.BDCentral",
+            "jboss.data-source.reference-factory.BDDataMart",
+            "jboss.data-source.reference-factory.BDSeguridad",
+            "jboss.data-source.reference-factory.PruebaChannelDS",
+            "jboss.deployment.unit.\"bmatic-management.ear\".PARSE",
+            "jboss.ejb.association",
+            "jboss.ejb.remoting.connector.client-mappings",
+            "jboss.http-upgrade-registry.default",
+            "jboss.http-upgrade-registry.http-management",
+            "jboss.iiop-openjdk.poa-service.rootpoa",
+            "jboss.jdbc-driver.sqljdbc4_jar",
+            "jboss.remoting.remotingConnectorInfoService.http-remoting-connector",
+            "jboss.txn.service.remote",
+            "jboss.web.common.server",
+            "jboss.ws.config",
+            "jboss.xts.handlers",
+            "org.wildfly.clustering.cache.default-service-provider-registry.ejb",
+            "org.wildfly.clustering.cache.default-service-provider-registry.web",
+            "org.wildfly.clustering.cache.group.ejb.client-mappings",
+            "org.wildfly.clustering.cache.group.ejb.passivation",
+            "org.wildfly.clustering.cache.group.hibernate.entity",
+            "org.wildfly.clustering.cache.group.hibernate.local-query",
+            "org.wildfly.clustering.cache.group.hibernate.timestamps",
+            "org.wildfly.clustering.cache.group.server.client-mappings",
+            "org.wildfly.clustering.cache.group.server.default",
+            "org.wildfly.clustering.cache.group.web.client-mappings",
+            "org.wildfly.clustering.cache.group.web.default-server",
+            "org.wildfly.clustering.cache.group.web.passivation",
+            "org.wildfly.clustering.cache.registry.ejb.client-mappings",
+            "org.wildfly.clustering.cache.registry.ejb.passivation",
+            "org.wildfly.clustering.cache.registry.server.default",
+            "org.wildfly.clustering.cache.registry.web.passivation",
+            "org.wildfly.clustering.cache.registry-entry.ejb.client-mappings",
+            "org.wildfly.clustering.cache.registry-entry.ejb.passivation",
+            "org.wildfly.clustering.cache.registry-entry.hibernate.entity",
+            "org.wildfly.clustering.cache.registry-entry.hibernate.local-query",
+            "org.wildfly.clustering.cache.registry-entry.hibernate.timestamps",
+            "org.wildfly.clustering.cache.registry-entry.server.client-mappings",
+            "org.wildfly.clustering.cache.registry-entry.server.default",
+            "org.wildfly.clustering.cache.registry-entry.web.client-mappings",
+            "org.wildfly.clustering.cache.registry-entry.web.default-server",
+            "org.wildfly.clustering.cache.registry-entry.web.passivation",
+            "org.wildfly.clustering.cache.registry-factory.ejb.client-mappings",
+            "org.wildfly.clustering.cache.registry-factory.ejb.passivation",
+            "org.wildfly.clustering.cache.registry-factory.hibernate.entity",
+            "org.wildfly.clustering.cache.registry-factory.hibernate.local-query",
+            "org.wildfly.clustering.cache.registry-factory.hibernate.timestamps",
+            "org.wildfly.clustering.cache.registry-factory.server.client-mappings",
+            "org.wildfly.clustering.cache.registry-factory.server.default",
+            "org.wildfly.clustering.cache.registry-factory.web.client-mappings",
+            "org.wildfly.clustering.cache.registry-factory.web.default-server",
+            "org.wildfly.clustering.cache.registry-factory.web.passivation",
+            "org.wildfly.clustering.cache.service-provider-registry.ejb.client-mappings",
+            "org.wildfly.clustering.cache.service-provider-registry.ejb.passivation",
+            "org.wildfly.clustering.cache.service-provider-registry.hibernate.entity",
+            "org.wildfly.clustering.cache.service-provider-registry.hibernate.local-query",
+            "org.wildfly.clustering.cache.service-provider-registry.hibernate.timestamps",
+            "org.wildfly.clustering.cache.service-provider-registry.server.client-mappings",
+            "org.wildfly.clustering.cache.service-provider-registry.server.default",
+            "org.wildfly.clustering.cache.service-provider-registry.web.client-mappings",
+            "org.wildfly.clustering.cache.service-provider-registry.web.default-server",
+            "org.wildfly.clustering.cache.service-provider-registry.web.passivation",
+            "org.wildfly.clustering.command-dispatcher-factory.ejb",
+            "org.wildfly.clustering.command-dispatcher-factory.hibernate",
+            "org.wildfly.clustering.command-dispatcher-factory.local",
+            "org.wildfly.clustering.command-dispatcher-factory.server",
+            "org.wildfly.clustering.command-dispatcher-factory.web",
+            "org.wildfly.clustering.default-command-dispatcher-factory",
+            "org.wildfly.clustering.default-group",
+            "org.wildfly.clustering.group.ejb",
+            "org.wildfly.clustering.group.hibernate",
+            "org.wildfly.clustering.group.local",
+            "org.wildfly.clustering.group.server",
+            "org.wildfly.clustering.group.web",
+            "org.wildfly.clustering.infinispan.cache.ejb.client-mappings",
+            "org.wildfly.clustering.infinispan.cache.ejb.passivation",
+            "org.wildfly.clustering.infinispan.cache.hibernate.entity",
+            "org.wildfly.clustering.infinispan.cache.hibernate.local-query",
+            "org.wildfly.clustering.infinispan.cache.hibernate.timestamps",
+            "org.wildfly.clustering.infinispan.cache.server.client-mappings",
+            "org.wildfly.clustering.infinispan.cache.server.default",
+            "org.wildfly.clustering.infinispan.cache.store.ejb.passivation",
+            "org.wildfly.clustering.infinispan.cache.store.hibernate.entity",
+            "org.wildfly.clustering.infinispan.cache.store.hibernate.local-query",
+            "org.wildfly.clustering.infinispan.cache.store.hibernate.timestamps",
+            "org.wildfly.clustering.infinispan.cache.store.server.default",
+            "org.wildfly.clustering.infinispan.cache.store.web.passivation",
+            "org.wildfly.clustering.infinispan.cache.web.client-mappings",
+            "org.wildfly.clustering.infinispan.cache.web.default-server",
+            "org.wildfly.clustering.infinispan.cache.web.passivation",
+            "org.wildfly.clustering.infinispan.cache-configuration.ejb.client-mappings",
+            "org.wildfly.clustering.infinispan.cache-configuration.ejb.passivation",
+            "org.wildfly.clustering.infinispan.cache-configuration.ejb.passivation.expiration",
+            "org.wildfly.clustering.infinispan.cache-configuration.ejb.passivation.locking",
+            "org.wildfly.clustering.infinispan.cache-configuration.ejb.passivation.memory",
+            "org.wildfly.clustering.infinispan.cache-configuration.ejb.passivation.transaction",
+            "org.wildfly.clustering.infinispan.cache-configuration.ejb.passivation.write",
+            "org.wildfly.clustering.infinispan.cache-configuration.hibernate.entity",
+            "org.wildfly.clustering.infinispan.cache-configuration.hibernate.entity.expiration",
+            "org.wildfly.clustering.infinispan.cache-configuration.hibernate.entity.locking",
+            "org.wildfly.clustering.infinispan.cache-configuration.hibernate.entity.memory",
+            "org.wildfly.clustering.infinispan.cache-configuration.hibernate.entity.transaction",
+            "org.wildfly.clustering.infinispan.cache-configuration.hibernate.local-query",
+            "org.wildfly.clustering.infinispan.cache-configuration.hibernate.local-query.expiration",
+            "org.wildfly.clustering.infinispan.cache-configuration.hibernate.local-query.locking",
+            "org.wildfly.clustering.infinispan.cache-configuration.hibernate.local-query.memory",
+            "org.wildfly.clustering.infinispan.cache-configuration.hibernate.local-query.transaction",
+            "org.wildfly.clustering.infinispan.cache-configuration.hibernate.timestamps",
+            "org.wildfly.clustering.infinispan.cache-configuration.hibernate.timestamps.expiration",
+            "org.wildfly.clustering.infinispan.cache-configuration.hibernate.timestamps.locking",
+            "org.wildfly.clustering.infinispan.cache-configuration.hibernate.timestamps.memory",
+            "org.wildfly.clustering.infinispan.cache-configuration.hibernate.timestamps.transaction",
+            "org.wildfly.clustering.infinispan.cache-configuration.server.client-mappings",
+            "org.wildfly.clustering.infinispan.cache-configuration.server.default",
+            "org.wildfly.clustering.infinispan.cache-configuration.server.default.expiration",
+            "org.wildfly.clustering.infinispan.cache-configuration.server.default.locking",
+            "org.wildfly.clustering.infinispan.cache-configuration.server.default.memory",
+            "org.wildfly.clustering.infinispan.cache-configuration.server.default.transaction",
+            "org.wildfly.clustering.infinispan.cache-configuration.web.client-mappings",
+            "org.wildfly.clustering.infinispan.cache-configuration.web.default-server",
+            "org.wildfly.clustering.infinispan.cache-configuration.web.passivation",
+            "org.wildfly.clustering.infinispan.cache-configuration.web.passivation.expiration",
+            "org.wildfly.clustering.infinispan.cache-configuration.web.passivation.locking",
+            "org.wildfly.clustering.infinispan.cache-configuration.web.passivation.memory",
+            "org.wildfly.clustering.infinispan.cache-configuration.web.passivation.transaction",
+            "org.wildfly.clustering.infinispan.cache-configuration.web.passivation.write",
+            "org.wildfly.clustering.infinispan.cache-container.ejb",
+            "org.wildfly.clustering.infinispan.cache-container.hibernate",
+            "org.wildfly.clustering.infinispan.cache-container.server",
+            "org.wildfly.clustering.infinispan.cache-container.web",
+            "org.wildfly.clustering.infinispan.cache-container-configuration.ejb",
+            "org.wildfly.clustering.infinispan.cache-container-configuration.ejb.transport",
+            "org.wildfly.clustering.infinispan.cache-container-configuration.hibernate",
+            "org.wildfly.clustering.infinispan.cache-container-configuration.hibernate.transport",
+            "org.wildfly.clustering.infinispan.cache-container-configuration.server",
+            "org.wildfly.clustering.infinispan.cache-container-configuration.server.transport",
+            "org.wildfly.clustering.infinispan.cache-container-configuration.web",
+            "org.wildfly.clustering.infinispan.cache-container-configuration.web.transport",
+            "org.wildfly.clustering.infinispan.default-cache.ejb",
+            "org.wildfly.clustering.infinispan.default-cache.web",
+            "org.wildfly.clustering.infinispan.default-cache-configuration.ejb",
+            "org.wildfly.clustering.infinispan.default-cache-configuration.server",
+            "org.wildfly.clustering.infinispan.default-cache-configuration.web",
+            "org.wildfly.data-source.BDCentral",
+            "org.wildfly.data-source.BDDataMart",
+            "org.wildfly.data-source.BDSeguridad",
+            "org.wildfly.data-source.PruebaChannelDS",
+            "org.wildfly.web.common.server"
+        ]
+    }
+}
+11:13:27,682 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "datasources"),
+    ("data-source" => "BDSeguridad")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.jdbc-driver.sqljdbc4_jar"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => [
+        "jboss.driver-demander.java:jboss/datasources/BDSeguridad is missing [jboss.jdbc-driver.sqljdbc4_jar]",
+        "org.wildfly.data-source.BDSeguridad is missing [jboss.jdbc-driver.sqljdbc4_jar]"
+    ]
+}
+11:13:27,682 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "datasources"),
+    ("data-source" => "BDCentral")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.jdbc-driver.sqljdbc4_jar"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => [
+        "org.wildfly.data-source.BDCentral is missing [jboss.jdbc-driver.sqljdbc4_jar]",
+        "jboss.driver-demander.java:jboss/datasources/BDCentral is missing [jboss.jdbc-driver.sqljdbc4_jar]"
+    ]
+}
+11:13:27,682 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "datasources"),
+    ("data-source" => "BDDataMart")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.jdbc-driver.sqljdbc4_jar"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => [
+        "jboss.driver-demander.java:jboss/datasources/BDDataMart is missing [jboss.jdbc-driver.sqljdbc4_jar]",
+        "org.wildfly.data-source.BDDataMart is missing [jboss.jdbc-driver.sqljdbc4_jar]"
+    ]
+}
+11:13:27,682 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "datasources"),
+    ("data-source" => "PruebaChannelDS")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.jdbc-driver.sqljdbc4_jar"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => [
+        "jboss.driver-demander.java:jboss/datasources/PruebaChannelDS is missing [jboss.jdbc-driver.sqljdbc4_jar]",
+        "org.wildfly.data-source.PruebaChannelDS is missing [jboss.jdbc-driver.sqljdbc4_jar]"
+    ]
+}
+11:13:27,682 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("file-audit-log" => "local-audit")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.security-event-listener.local-audit" => "WFLYELY00004: Unable to start the service.
+    Caused by: java.io.FileNotFoundException: C:\\Bmatic\\Application\\wildfly-13-A\\standalone\\log\\audit.log (Acceso denegado)"}}
+11:13:27,682 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "datasources"),
+    ("data-source" => "BDSeguridad")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "jboss.jdbc-driver.sqljdbc4_jar",
+        "jboss.jdbc-driver.sqljdbc4_jar"
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => [
+        "jboss.driver-demander.java:jboss/datasources/BDSeguridad is missing [jboss.jdbc-driver.sqljdbc4_jar]",
+        "org.wildfly.data-source.BDSeguridad is missing [jboss.jdbc-driver.sqljdbc4_jar]",
+        "org.wildfly.data-source.BDSeguridad is missing [jboss.jdbc-driver.sqljdbc4_jar]"
+    ]
+}
+11:13:27,682 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "datasources"),
+    ("data-source" => "BDCentral")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "jboss.jdbc-driver.sqljdbc4_jar",
+        "jboss.jdbc-driver.sqljdbc4_jar"
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => [
+        "org.wildfly.data-source.BDCentral is missing [jboss.jdbc-driver.sqljdbc4_jar]",
+        "jboss.driver-demander.java:jboss/datasources/BDCentral is missing [jboss.jdbc-driver.sqljdbc4_jar]",
+        "org.wildfly.data-source.BDCentral is missing [jboss.jdbc-driver.sqljdbc4_jar]"
+    ]
+}
+11:13:27,682 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "datasources"),
+    ("data-source" => "BDDataMart")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "jboss.jdbc-driver.sqljdbc4_jar",
+        "jboss.jdbc-driver.sqljdbc4_jar"
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => [
+        "jboss.driver-demander.java:jboss/datasources/BDDataMart is missing [jboss.jdbc-driver.sqljdbc4_jar]",
+        "org.wildfly.data-source.BDDataMart is missing [jboss.jdbc-driver.sqljdbc4_jar]",
+        "org.wildfly.data-source.BDDataMart is missing [jboss.jdbc-driver.sqljdbc4_jar]"
+    ]
+}
+11:13:27,682 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "datasources"),
+    ("data-source" => "PruebaChannelDS")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "jboss.jdbc-driver.sqljdbc4_jar",
+        "jboss.jdbc-driver.sqljdbc4_jar"
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => [
+        "jboss.driver-demander.java:jboss/datasources/PruebaChannelDS is missing [jboss.jdbc-driver.sqljdbc4_jar]",
+        "org.wildfly.data-source.PruebaChannelDS is missing [jboss.jdbc-driver.sqljdbc4_jar]",
+        "org.wildfly.data-source.PruebaChannelDS is missing [jboss.jdbc-driver.sqljdbc4_jar]"
+    ]
+}
+11:13:27,682 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "undertow"),
+    ("server" => "default-server"),
+    ("http-listener" => "default")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.undertow.listener.default" => "Address already in use: bind /0.0.0.0:8090"}}
+11:13:27,682 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "undertow"),
+    ("server" => "default-server"),
+    ("https-listener" => "https")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.undertow.listener.https" => "Address already in use: bind /0.0.0.0:8443"}}
+11:13:27,682 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("core-service" => "management"),
+    ("management-interface" => "http-interface")
+]) - failure description: {
+    "WFLYCTL0080: Failed services" => {"org.wildfly.management.http.extensible" => "java.net.BindException: Address already in use: bind /127.0.0.1:9990"},
+    "WFLYCTL0288: One or more services were unable to start due to one or more indirect dependencies not being available." => {
+        "Services that were unable to start:" => ["org.wildfly.management.http.extensible.shutdown"],
+        "Services that may be the cause:" => [
+            "jboss.clustering.web.route.default-server",
+            "jboss.data-source.common-deployment.\"jboss.naming.context.java.jboss.datasources.BDCentral\"",
+            "jboss.data-source.common-deployment.\"jboss.naming.context.java.jboss.datasources.BDDataMart\"",
+            "jboss.data-source.common-deployment.\"jboss.naming.context.java.jboss.datasources.BDSeguridad\"",
+            "jboss.data-source.common-deployment.\"jboss.naming.context.java.jboss.datasources.PruebaChannelDS\"",
+            "jboss.data-source.reference-factory.BDCentral",
+            "jboss.data-source.reference-factory.BDDataMart",
+            "jboss.data-source.reference-factory.BDSeguridad",
+            "jboss.data-source.reference-factory.PruebaChannelDS",
+            "jboss.deployment.unit.\"bmatic-management.ear\".PARSE",
+            "jboss.ejb.association",
+            "jboss.ejb.remoting.connector.client-mappings",
+            "jboss.http-upgrade-registry.default",
+            "jboss.http-upgrade-registry.http-management",
+            "jboss.iiop-openjdk.poa-service.rootpoa",
+            "jboss.jdbc-driver.sqljdbc4_jar",
+            "jboss.remoting.remotingConnectorInfoService.http-remoting-connector",
+            "jboss.txn.service.remote",
+            "jboss.web.common.server",
+            "jboss.ws.config",
+            "jboss.xts.handlers",
+            "org.wildfly.clustering.cache.default-service-provider-registry.ejb",
+            "org.wildfly.clustering.cache.default-service-provider-registry.web",
+            "org.wildfly.clustering.cache.group.ejb.client-mappings",
+            "org.wildfly.clustering.cache.group.ejb.passivation",
+            "org.wildfly.clustering.cache.group.hibernate.entity",
+            "org.wildfly.clustering.cache.group.hibernate.local-query",
+            "org.wildfly.clustering.cache.group.hibernate.timestamps",
+            "org.wildfly.clustering.cache.group.server.client-mappings",
+            "org.wildfly.clustering.cache.group.server.default",
+            "org.wildfly.clustering.cache.group.web.client-mappings",
+            "org.wildfly.clustering.cache.group.web.default-server",
+            "org.wildfly.clustering.cache.group.web.passivation",
+            "org.wildfly.clustering.cache.registry.ejb.client-mappings",
+            "org.wildfly.clustering.cache.registry.ejb.passivation",
+            "org.wildfly.clustering.cache.registry.server.default",
+            "org.wildfly.clustering.cache.registry.web.passivation",
+            "org.wildfly.clustering.cache.registry-entry.ejb.client-mappings",
+            "org.wildfly.clustering.cache.registry-entry.ejb.passivation",
+            "org.wildfly.clustering.cache.registry-entry.hibernate.entity",
+            "org.wildfly.clustering.cache.registry-entry.hibernate.local-query",
+            "org.wildfly.clustering.cache.registry-entry.hibernate.timestamps",
+            "org.wildfly.clustering.cache.registry-entry.server.client-mappings",
+            "org.wildfly.clustering.cache.registry-entry.server.default",
+            "org.wildfly.clustering.cache.registry-entry.web.client-mappings",
+            "org.wildfly.clustering.cache.registry-entry.web.default-server",
+            "org.wildfly.clustering.cache.registry-entry.web.passivation",
+            "org.wildfly.clustering.cache.registry-factory.ejb.client-mappings",
+            "org.wildfly.clustering.cache.registry-factory.ejb.passivation",
+            "org.wildfly.clustering.cache.registry-factory.hibernate.entity",
+            "org.wildfly.clustering.cache.registry-factory.hibernate.local-query",
+            "org.wildfly.clustering.cache.registry-factory.hibernate.timestamps",
+            "org.wildfly.clustering.cache.registry-factory.server.client-mappings",
+            "org.wildfly.clustering.cache.registry-factory.server.default",
+            "org.wildfly.clustering.cache.registry-factory.web.client-mappings",
+            "org.wildfly.clustering.cache.registry-factory.web.default-server",
+            "org.wildfly.clustering.cache.registry-factory.web.passivation",
+            "org.wildfly.clustering.cache.service-provider-registry.ejb.client-mappings",
+            "org.wildfly.clustering.cache.service-provider-registry.ejb.passivation",
+            "org.wildfly.clustering.cache.service-provider-registry.hibernate.entity",
+            "org.wildfly.clustering.cache.service-provider-registry.hibernate.local-query",
+            "org.wildfly.clustering.cache.service-provider-registry.hibernate.timestamps",
+            "org.wildfly.clustering.cache.service-provider-registry.server.client-mappings",
+            "org.wildfly.clustering.cache.service-provider-registry.server.default",
+            "org.wildfly.clustering.cache.service-provider-registry.web.client-mappings",
+            "org.wildfly.clustering.cache.service-provider-registry.web.default-server",
+            "org.wildfly.clustering.cache.service-provider-registry.web.passivation",
+            "org.wildfly.clustering.command-dispatcher-factory.ejb",
+            "org.wildfly.clustering.command-dispatcher-factory.hibernate",
+            "org.wildfly.clustering.command-dispatcher-factory.local",
+            "org.wildfly.clustering.command-dispatcher-factory.server",
+            "org.wildfly.clustering.command-dispatcher-factory.web",
+            "org.wildfly.clustering.default-command-dispatcher-factory",
+            "org.wildfly.clustering.default-group",
+            "org.wildfly.clustering.group.ejb",
+            "org.wildfly.clustering.group.hibernate",
+            "org.wildfly.clustering.group.local",
+            "org.wildfly.clustering.group.server",
+            "org.wildfly.clustering.group.web",
+            "org.wildfly.clustering.infinispan.cache.ejb.client-mappings",
+            "org.wildfly.clustering.infinispan.cache.ejb.passivation",
+            "org.wildfly.clustering.infinispan.cache.hibernate.entity",
+            "org.wildfly.clustering.infinispan.cache.hibernate.local-query",
+            "org.wildfly.clustering.infinispan.cache.hibernate.timestamps",
+            "org.wildfly.clustering.infinispan.cache.server.client-mappings",
+            "org.wildfly.clustering.infinispan.cache.server.default",
+            "org.wildfly.clustering.infinispan.cache.store.ejb.passivation",
+            "org.wildfly.clustering.infinispan.cache.store.hibernate.entity",
+            "org.wildfly.clustering.infinispan.cache.store.hibernate.local-query",
+            "org.wildfly.clustering.infinispan.cache.store.hibernate.timestamps",
+            "org.wildfly.clustering.infinispan.cache.store.server.default",
+            "org.wildfly.clustering.infinispan.cache.store.web.passivation",
+            "org.wildfly.clustering.infinispan.cache.web.client-mappings",
+            "org.wildfly.clustering.infinispan.cache.web.default-server",
+            "org.wildfly.clustering.infinispan.cache.web.passivation",
+            "org.wildfly.clustering.infinispan.cache-configuration.ejb.client-mappings",
+            "org.wildfly.clustering.infinispan.cache-configuration.ejb.passivation",
+            "org.wildfly.clustering.infinispan.cache-configuration.ejb.passivation.expiration",
+            "org.wildfly.clustering.infinispan.cache-configuration.ejb.passivation.locking",
+            "org.wildfly.clustering.infinispan.cache-configuration.ejb.passivation.memory",
+            "org.wildfly.clustering.infinispan.cache-configuration.ejb.passivation.transaction",
+            "org.wildfly.clustering.infinispan.cache-configuration.ejb.passivation.write",
+            "org.wildfly.clustering.infinispan.cache-configuration.hibernate.entity",
+            "org.wildfly.clustering.infinispan.cache-configuration.hibernate.entity.expiration",
+            "org.wildfly.clustering.infinispan.cache-configuration.hibernate.entity.locking",
+            "org.wildfly.clustering.infinispan.cache-configuration.hibernate.entity.memory",
+            "org.wildfly.clustering.infinispan.cache-configuration.hibernate.entity.transaction",
+            "org.wildfly.clustering.infinispan.cache-configuration.hibernate.local-query",
+            "org.wildfly.clustering.infinispan.cache-configuration.hibernate.local-query.expiration",
+            "org.wildfly.clustering.infinispan.cache-configuration.hibernate.local-query.locking",
+            "org.wildfly.clustering.infinispan.cache-configuration.hibernate.local-query.memory",
+            "org.wildfly.clustering.infinispan.cache-configuration.hibernate.local-query.transaction",
+            "org.wildfly.clustering.infinispan.cache-configuration.hibernate.timestamps",
+            "org.wildfly.clustering.infinispan.cache-configuration.hibernate.timestamps.expiration",
+            "org.wildfly.clustering.infinispan.cache-configuration.hibernate.timestamps.locking",
+            "org.wildfly.clustering.infinispan.cache-configuration.hibernate.timestamps.memory",
+            "org.wildfly.clustering.infinispan.cache-configuration.hibernate.timestamps.transaction",
+            "org.wildfly.clustering.infinispan.cache-configuration.server.client-mappings",
+            "org.wildfly.clustering.infinispan.cache-configuration.server.default",
+            "org.wildfly.clustering.infinispan.cache-configuration.server.default.expiration",
+            "org.wildfly.clustering.infinispan.cache-configuration.server.default.locking",
+            "org.wildfly.clustering.infinispan.cache-configuration.server.default.memory",
+            "org.wildfly.clustering.infinispan.cache-configuration.server.default.transaction",
+            "org.wildfly.clustering.infinispan.cache-configuration.web.client-mappings",
+            "org.wildfly.clustering.infinispan.cache-configuration.web.default-server",
+            "org.wildfly.clustering.infinispan.cache-configuration.web.passivation",
+            "org.wildfly.clustering.infinispan.cache-configuration.web.passivation.expiration",
+            "org.wildfly.clustering.infinispan.cache-configuration.web.passivation.locking",
+            "org.wildfly.clustering.infinispan.cache-configuration.web.passivation.memory",
+            "org.wildfly.clustering.infinispan.cache-configuration.web.passivation.transaction",
+            "org.wildfly.clustering.infinispan.cache-configuration.web.passivation.write",
+            "org.wildfly.clustering.infinispan.cache-container.ejb",
+            "org.wildfly.clustering.infinispan.cache-container.hibernate",
+            "org.wildfly.clustering.infinispan.cache-container.server",
+            "org.wildfly.clustering.infinispan.cache-container.web",
+            "org.wildfly.clustering.infinispan.cache-container-configuration.ejb",
+            "org.wildfly.clustering.infinispan.cache-container-configuration.ejb.transport",
+            "org.wildfly.clustering.infinispan.cache-container-configuration.hibernate",
+            "org.wildfly.clustering.infinispan.cache-container-configuration.hibernate.transport",
+            "org.wildfly.clustering.infinispan.cache-container-configuration.server",
+            "org.wildfly.clustering.infinispan.cache-container-configuration.server.transport",
+            "org.wildfly.clustering.infinispan.cache-container-configuration.web",
+            "org.wildfly.clustering.infinispan.cache-container-configuration.web.transport",
+            "org.wildfly.clustering.infinispan.default-cache.ejb",
+            "org.wildfly.clustering.infinispan.default-cache.web",
+            "org.wildfly.clustering.infinispan.default-cache-configuration.ejb",
+            "org.wildfly.clustering.infinispan.default-cache-configuration.server",
+            "org.wildfly.clustering.infinispan.default-cache-configuration.web",
+            "org.wildfly.data-source.BDCentral",
+            "org.wildfly.data-source.BDDataMart",
+            "org.wildfly.data-source.BDSeguridad",
+            "org.wildfly.data-source.PruebaChannelDS",
+            "org.wildfly.web.common.server"
+        ]
+    }
+}
+11:13:42,464 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0208: Stopped subdeployment (runtime-name: reportes.war) in 14770ms
+11:13:42,464 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0208: Stopped subdeployment (runtime-name: adminorg.war) in 14773ms
+11:13:42,464 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0208: Stopped subdeployment (runtime-name: report-client.war) in 14775ms
+11:13:42,464 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment sqljdbc4.jar (runtime-name: sqljdbc4.jar) in 14775ms
+11:13:42,464 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0208: Stopped subdeployment (runtime-name: gestion-cola.war) in 14778ms
+11:13:42,464 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0208: Stopped subdeployment (runtime-name: mainsecurity.war) in 14781ms
+11:13:42,479 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0208: Stopped subdeployment (runtime-name: adm-alarmas.war) in 14785ms
+11:13:42,479 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0208: Stopped subdeployment (runtime-name: adm-param.war) in 14787ms
+11:13:42,479 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0208: Stopped subdeployment (runtime-name: ldap-ejb.jar) in 14794ms
+11:13:42,682 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0208: Stopped subdeployment (runtime-name: conf-agencia.war) in 14997ms
+11:13:42,682 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0208: Stopped subdeployment (runtime-name: ubigeo.war) in 14998ms
+11:13:43,120 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0208: Stopped subdeployment (runtime-name: ldap-webservice.war) in 15430ms
+11:13:45,464 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0208: Stopped subdeployment (runtime-name: adminorg-perfiles.war) in 17769ms
+11:13:45,979 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0208: Stopped subdeployment (runtime-name: ventanilla-contingencia.war) in 18291ms
+11:13:47,682 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0208: Stopped subdeployment (runtime-name: adm-usuarios.war) in 19987ms
+11:13:48,011 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0208: Stopped subdeployment (runtime-name: prueba-channel.war) in 20316ms
+11:13:48,354 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment bmatic-management.ear (runtime-name: bmatic-management.ear) in 20669ms
+11:13:48,401 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+11:13:48,401 ERROR [org.jboss.as.server] (ServerService Thread Pool -- 39) WFLYSRV0021: Deploy of deployment "sqljdbc4.jar" was rolled back with the following failure message: undefined
+11:13:48,401 ERROR [org.jboss.as.server] (ServerService Thread Pool -- 39) WFLYSRV0021: Deploy of deployment "bmatic-management.ear" was rolled back with the following failure message: undefined
+11:13:48,464 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0019: Host default-host stopping
+11:13:48,479 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = h2
+11:13:48,526 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0004: Undertow 2.0.9.Final stopping
+11:13:48,573 ERROR [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0005: Caught exception writing deployment marker file C:\Bmatic\Application\wildfly-13-A\standalone\deployments\bmatic-management.ear.failed: java.io.FileNotFoundException: C:\Bmatic\Application\wildfly-13-A\standalone\deployments\bmatic-management.ear.failed (Acceso denegado)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.jboss.as.server.deployment.scanner.FileSystemDeploymentService.writeFailedMarker(FileSystemDeploymentService.java:1336)
+	at org.jboss.as.server.deployment.scanner.FileSystemDeploymentService.access$4600(FileSystemDeploymentService.java:101)
+	at org.jboss.as.server.deployment.scanner.FileSystemDeploymentService$DeployTask.handleFailureResult(FileSystemDeploymentService.java:1509)
+	at org.jboss.as.server.deployment.scanner.FileSystemDeploymentService.executeScannerTasks(FileSystemDeploymentService.java:732)
+	at org.jboss.as.server.deployment.scanner.FileSystemDeploymentService.scan(FileSystemDeploymentService.java:650)
+	at org.jboss.as.server.deployment.scanner.FileSystemDeploymentService.bootTimeScan(FileSystemDeploymentService.java:474)
+	at org.jboss.as.server.deployment.scanner.DeploymentScannerAdd$2.run(DeploymentScannerAdd.java:160)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:485)
+
+11:13:48,573 ERROR [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0005: Caught exception writing deployment marker file C:\Bmatic\Application\wildfly-13-A\standalone\deployments\sqljdbc4.jar.failed: java.io.FileNotFoundException: C:\Bmatic\Application\wildfly-13-A\standalone\deployments\sqljdbc4.jar.failed (Acceso denegado)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.jboss.as.server.deployment.scanner.FileSystemDeploymentService.writeFailedMarker(FileSystemDeploymentService.java:1336)
+	at org.jboss.as.server.deployment.scanner.FileSystemDeploymentService.access$4600(FileSystemDeploymentService.java:101)
+	at org.jboss.as.server.deployment.scanner.FileSystemDeploymentService$DeployTask.handleFailureResult(FileSystemDeploymentService.java:1509)
+	at org.jboss.as.server.deployment.scanner.FileSystemDeploymentService.executeScannerTasks(FileSystemDeploymentService.java:732)
+	at org.jboss.as.server.deployment.scanner.FileSystemDeploymentService.scan(FileSystemDeploymentService.java:650)
+	at org.jboss.as.server.deployment.scanner.FileSystemDeploymentService.bootTimeScan(FileSystemDeploymentService.java:474)
+	at org.jboss.as.server.deployment.scanner.DeploymentScannerAdd$2.run(DeploymentScannerAdd.java:160)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:485)
+
+11:13:48,573 FATAL [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0056: Server boot has failed in an unrecoverable manner; exiting. See previous messages for details.
+11:13:48,651 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0050: WildFly Full 13.0.0.Final (WildFly Core 5.0.0.Final) stopped in 76ms
+Presione una tecla para continuar . . . 
+¨Desea terminar el trabajo por lotes (S/N)? 

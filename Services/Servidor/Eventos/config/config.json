@@ -1,0 +1,26 @@
+{
+    "rabbit": {
+        "uri": "amqp://bmatic:bmatic@localhost/bmatic"
+    },
+    "subscriptions": [
+        {
+            "event_type": "ticket.created",
+            "targets": [
+				"http://localhost:8091/auto-assignment/ticket/display",
+                "http://localhost:8091/auto-assignment/ticket/created"
+			]
+        },
+		{
+            "event_type": "ticket.canceled",
+            "targets": [
+                "http://localhost:8091/auto-assignment/ticket/display"
+            ]
+        },
+		{
+            "event_type": "ticket.initiated",
+            "targets": [
+                "http://localhost:8091/auto-assignment/ticket/display"
+            ]
+        }
+    ]
+}

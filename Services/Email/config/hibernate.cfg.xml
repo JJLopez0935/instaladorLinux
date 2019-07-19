@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd"[]>
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property>
+    <property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+    <property name="hibernate.connection.url">jdbc:sqlserver://192.168.63.204:1433;databaseName=dbBMatic</property>
+    <property name="hibernate.connection.username">sa</property>
+    <property name="hibernate.connection.password">-625dcd088eb47a57</property>
+    <mapping class="pe.com.hiper.bmatic.services.email.entity.TmAgencia" />
+    <mapping class="pe.com.hiper.bmatic.services.email.entity.TxParamGeneral" />
+    <mapping class="pe.com.hiper.bmatic.services.email.entity.TmEmail" />
+    <mapping class="pe.com.hiper.bmatic.services.email.entity.TmAlarma" />
+    <mapping class="pe.com.hiper.bmatic.services.email.entity.TmServerCentral" />
+    <mapping class="pe.com.hiper.bmatic.services.email.entity.TpAlarmaGenerada" />
+    <mapping class="pe.com.hiper.bmatic.services.email.entity.TxModulo" />
+  </session-factory>
+</hibernate-configuration>
